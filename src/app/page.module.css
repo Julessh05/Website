@@ -1,7 +1,28 @@
+/* Represents the Hero View on this Page */
+.hero {
+  background: radial-gradient(circle at 100%, #035CEE, #2AF406 100%, #eee 10%, #333 75%);
+  min-height: 100vh;
+  color: white;
+}
+
+#heroName {
+  font-size: 3rem;
+}
+
+/* Center a Text in the middle of the viewport */
 .center {
   text-align: center;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+}
+
+/* Style the Hero Links */
+.heroLinks {
+  height: 25vh;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
   display: flex;
 }

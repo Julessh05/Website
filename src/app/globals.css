@@ -1,7 +1,16 @@
 html {
     height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: black;
 }
 
 body {
-    background: radial-gradient(circle at 100%, #035CEE, #2AF406 100%, #eee 10%, #333 75%)
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
 }
