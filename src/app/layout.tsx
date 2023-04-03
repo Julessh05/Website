@@ -1,3 +1,4 @@
+import Navbar from './components/navbar/navbar'
 import './globals.css'
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Navbar></Navbar>
         {children}
         <footer>
           <p> © Julian Schumacher 2023 </p>

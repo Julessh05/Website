@@ -1,11 +1,12 @@
 import Link from "next/link"
-import styles from "linkDiv.module.css"
+import styles from "./linkDiv.module.css"
 
-export default function LinkDiv(destination: URL, name: String) {
+export default function LinkDiv({ destination, name }: { destination: string, name: string }) {
     return (
-        <div>
-            <p> {name} </p>
-            <Link href={destination}></Link>
-        </div>
+        <a href={destination} className={styles.link}>
+            <div>
+                <p> {name} </p>
+            </div>
+        </a>
     )
 }
