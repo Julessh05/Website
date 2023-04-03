@@ -1,4 +1,5 @@
 import Navbar from './components/navbar/navbar'
+import Footer from './components/footer/footer'
 import './globals.css'
 
 export const metadata = {
@@ -16,10 +17,7 @@ export default function RootLayout({
       <body>
         <Navbar></Navbar>
         {children}
-        <footer>
-          <p> © Julian Schumacher 2023 </p>
-          <p> All rights reserved </p>
-        </footer>
+        <Footer></Footer>
       </body>
     </html>
   )

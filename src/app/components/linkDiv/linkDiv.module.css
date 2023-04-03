@@ -2,8 +2,8 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    opacity: .9;
-    border-radius: 15px 40px;
+    opacity: .7;
+    border-radius: 25px 50px;
     border-style: solid;
     border-color: white;
     border-width: 2.5px;
@@ -11,4 +11,11 @@
     padding-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
+    font-size: 2rem;
+}
+
+.link:hover {
+    font-size: 2.1rem;
+    opacity: .9;
+    border-radius: 15px 30px;
 }

@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.hero}>
         <center>
           <div className={styles.center}>
-            <p> Julian Schumacher </p>
+            <p id={styles['heroName']}> Julian Schumacher </p>
           </div>
           {/* The Hero Links, representing my Developer Accounts in the Stores */}
           <div className={styles.heroLinks}>
