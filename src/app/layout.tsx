@@ -12,7 +12,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer>
+          <p> © Julian Schumacher 2023 </p>
+          <p> All rights reserved </p>
+        </footer>
+      </body>
     </html>
   )
 }
