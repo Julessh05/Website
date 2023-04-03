@@ -36,9 +36,9 @@ export default function Privacy() {
                 developed by the comunity, not every code, that is used in my App
                 is written by me.
                 All the Packages can be found <a href="https://pub.dev">here</a>.
-                Google check's the Packages, but i cannot garantee that these Packages are
+                Google check&rsquo;s the Packages, but i cannot garantee that these Packages are
                 100% secure and bug-free.
-                Although i will do my best to remove packages that aren't necessary, suspicious or
+                Although i will do my best to remove packages that aren&rsquo;t necessary, suspicious or
                 not working.
                 To see more information about the packages used in an individual App,
                 please refer to the Github repository of this App, mostly linked in the Store or
@@ -48,7 +48,7 @@ export default function Privacy() {
             <h2 className={styles.heading}> Swift Specific </h2>
             <p>
                 My Swift and SwiftUI Apps - most of my more recent Apps,
-                are being build usind Apple's own native system language, which
+                are being build usind Apple&rsquo;s own native system language, which
                 provides me access to system level functions and especially native functions.
                 These Apps may store their Data encrypted and may sync it to your personal iCloud.
                 These synced Data are not visible or accessible for anyone but yourself.
