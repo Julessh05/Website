@@ -16,6 +16,10 @@ export default function Home() {
               name='App Store'
             />
             <LinkDiv
+              destination='https://github.com/Jules-sh'
+              name='Github'
+            />
+            <LinkDiv
               destination='https://play.google.com/store/games'
               name='Play Store'
             />
