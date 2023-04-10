@@ -1,7 +1,7 @@
 /* Represents the Hero View on this Page */
 .hero {
   background: radial-gradient(circle at 100%, #035CEE, #2AF406 100%, #eee 10%, #333 75%);
-  min-height: 100vh;
+  min-height: 75vh;
   color: white;
 }
 

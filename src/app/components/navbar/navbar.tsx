@@ -14,6 +14,9 @@ export default function Navbar() {
                 <li>
                     <Link href='/legal/privacy'>Privacy Policy</Link>
                 </li>
+                <li>
+                    <Link href='/support'>Support</Link>
+                </li>
             </ul>
         </nav>
     )

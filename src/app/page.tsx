@@ -1,4 +1,5 @@
 import LinkDiv from './components/linkDiv/linkDiv'
+import LinkDivRow from './components/linkDiv/linkDivRow/linkDivRow'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -10,22 +11,12 @@ export default function Home() {
             <p id={styles['heroName']}> Julian Schumacher </p>
           </div>
           {/* The Hero Links, representing my Developer Accounts in the Stores */}
-          <div className={styles.heroLinks}>
-            <LinkDiv
-              destination='https://www.apple.com/app-store/'
-              name='App Store'
-            />
-            <LinkDiv
-              destination='https://github.com/Jules-sh'
-              name='Github'
-            />
-            <LinkDiv
-              destination='https://play.google.com/store/games'
-              name='Play Store'
-            />
-          </div>
+          <LinkDivRow
+            names={['App Store', 'Github', 'Play Store']}
+            destinations={['https://www.apple.com/app-store/', 'https://github.com/Jules-sh', 'https://play.google.com/store']}
+          />
         </center>
-      </div>
-    </main>
+      </div >
+    </main >
   )
 }
