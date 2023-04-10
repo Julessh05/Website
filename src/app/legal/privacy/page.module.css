@@ -1,5 +1,5 @@
 .main {
-    text-align: center;
+    text-align: left;
     padding: 10vh 10vw 2.5vh 10vw;
 }
 
@@ -10,7 +10,5 @@
 .webPrivacyList {
     list-style: none;
     text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    text-align: left;
 }
