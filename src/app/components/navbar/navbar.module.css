@@ -1,11 +1,22 @@
 .nav {
-    justify-content: space-around;
-    height: 10vh;
-    position: absolute;
     width: 100vw;
     text-align: center;
     opacity: .75;
-    list-style: none;
     text-decoration: none;
-    display: flex;
+    display: inline;
+}
+
+.nav ul li {
+    list-style: none;
+    list-style-type: none;
+    display: inline;
+    justify-content: space-around;
+    padding: 2vw;
+    text-decoration: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
 }

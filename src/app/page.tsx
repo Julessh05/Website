@@ -1,4 +1,3 @@
-import LinkDiv from './components/linkDiv/linkDiv'
 import LinkDivRow from './components/linkDiv/linkDivRow/linkDivRow'
 import styles from './page.module.css'
 
