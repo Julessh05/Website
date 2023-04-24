@@ -1,7 +1,5 @@
 .rowContainer {
-    border-width: 1px;
-    border-color: black;
-    border-radius: 10px;
-    border-style: solid;
     height: 25vh;
+    display: flex;
+    justify-content: space-around;
 }

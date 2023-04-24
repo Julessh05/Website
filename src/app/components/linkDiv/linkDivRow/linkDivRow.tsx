@@ -1,5 +1,6 @@
 import { ReactElement } from 'react'
 import LinkDiv from '../linkDiv'
+import styles from './linkDivRow.module.css'
 
 export default function LinkDivRow({ names, destinations }: { names: string[], destinations: string[] }) {
     let result: ReactElement[] = []
@@ -7,17 +8,12 @@ export default function LinkDivRow({ names, destinations }: { names: string[], d
         result[i] = <LinkDiv
             destination={destinations[i]}
             name={names[i]}
-            width={100 / destinations.length}
+            width={100 / destinations.length - 10}
             key={i}
         />
     }
     return (
-        <div className='rowContainer' style=
-            {
-                {
-                    width: `100vw`
-                }
-            }>
+        <div className={styles.rowContainer}>
             {result}
         </div>
     )
