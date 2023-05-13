@@ -3,6 +3,18 @@
     padding: 10vh 10vw 2.5vh 10vw;
 }
 
+.main h1 {
+    text-align: left;
+}
+
+.main h2 {
+    text-align: left;
+}
+
+.main p {
+    text-align: left;
+}
+
 .heading {
     padding-top: 2vh;
 }
