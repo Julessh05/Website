@@ -1,9 +1,10 @@
 import Link from "next/link"
 import styles from "./page.module.css"
+import generalStyles from "../../cssComponents/smallPage.module.css"
 
 export default function Privacy() {
     return (
-        <main className={styles.main}>
+        <main className={[generalStyles.main, styles.main].join(' ')}>
             <h1> Website </h1>
             <h2 className={styles.heading}> General </h2>
             <p>

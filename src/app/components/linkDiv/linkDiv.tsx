@@ -6,7 +6,8 @@ export default function LinkDiv({ destination, name, width }: { destination: str
             {
                 width: `${width}vw`
             }
-        }>
+        }
+            target="_blank">
             <div>
                 <p> {name} </p>
             </div>
