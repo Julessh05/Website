@@ -1,0 +1,137 @@
+{
+    "projects": {
+        "2Do": {
+            "type-implemented": [
+                "mobile"
+            ],
+            "type-goal": [
+                "mobile"
+            ],
+            "platforms-ready": [
+                "android",
+                "ios"
+            ],
+            "platforms-goal": [
+                "android",
+                "ios"
+            ],
+            "language": "dart",
+            "framework": "flutter",
+            "name": "2Do",
+            "description": "This App helps you organize your day",
+            "features": [
+                "Add, delete, update and complete tasks",
+                "Organize your Todos with tags",
+                "Add Notes using two different input modes (normal and brainstorm)"
+            ],
+            "connection": {
+                "repo": "https://github.com/Julessh05/2Do",
+                "play-store": null,
+                "app-store": null,
+                "fdroid": null
+            }
+        },
+        "reading_diary": {
+            "type-implemented": [
+                "mobile"
+            ],
+            "type-goal": [
+                "mobile",
+                "desktop"
+            ],
+            "platforms-ready": [
+                "android",
+                "ios"
+            ],
+            "platforms-goal": [
+                "android",
+                "ios",
+                "macos",
+                "windows",
+                "linux"
+            ],
+            "language": "dart",
+            "framework": "flutter",
+            "name": "Reading Diary",
+            "description": "Write down your thoughts about what you read",
+            "features": [
+                "Add, delete, update and organize your Books",
+                "Keep track of your wishes in a book-wishlist",
+                "Add entries for every day",
+                "Keep track of your reading progress",
+                "Link websites to books or entries"
+            ],
+            "connection": {
+                "repo": "https://github.com/Julessh05/Reading-Diary",
+                "play-store": null,
+                "app-store": null,
+                "fdroid": null
+            }
+        },
+        "financer": {
+            "type-ready": [
+                "mobile"
+            ],
+            "type-goal": [
+                "mobile",
+                "desktop"
+            ],
+            "platforms-ready": [
+                "ios"
+            ],
+            "platforms-goal": [
+                "ios",
+                "macos"
+            ],
+            "language": "Swift",
+            "framework": "SwiftUI",
+            "name": "Financer",
+            "description": "Keep track of your finances",
+            "features": [],
+            "connection": {
+                "repo": "https://github.com/Julessh05/Financer",
+                "play-store": null,
+                "app-store": "https://apps.apple.com/de/app/financer-financial-overview/id6447355054",
+                "fdroid": null
+            }
+        },
+        "i-am-rich": {
+            "type-ready": [
+                "mobile",
+                "desktop"
+            ],
+            "type-goal": [
+                "mobile",
+                "desktop"
+            ],
+            "platforms-ready": [
+                "ios",
+                "android",
+                "macos",
+                "windows",
+                "linux"
+            ],
+            "platforms-goal": [
+                "ios",
+                "android",
+                "macos",
+                "windows",
+                "linux"
+            ],
+            "language": "dart",
+            "framework": "flutter",
+            "name": "I am rich",
+            "description": "Show of with how rich you are",
+            "features": [
+                "Show of your money",
+                "Read about how stupid I am rich Apps really are"
+            ],
+            "connection": {
+                "repo": "https://github.com/Julessh05/I-am-rich",
+                "play-store": null,
+                "app-store": null,
+                "fdroid": null
+            }
+        }
+    }
+}
