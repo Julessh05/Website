@@ -2,6 +2,7 @@ import Connection from "./connection"
 
 class Project {
     constructor(
+        identifier: string,
         typeImplemented: string[],
         typeGoal: string[],
         platformsReady: string[],
@@ -11,8 +12,9 @@ class Project {
         name: string,
         description: string,
         features: string[],
-        connection: Connection
+        connection: Connection,
     ) {
+        this.identifier = identifier
         this.typeImplemented = typeImplemented
         this.typeGoal = typeGoal
         this.platformsReady = platformsReady
@@ -24,6 +26,8 @@ class Project {
         this.features = features
         this.connection = connection
     }
+
+    identifier: string
 
     typeImplemented: string[]
 

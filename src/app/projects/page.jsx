@@ -13,6 +13,7 @@ export default function Projects() {
         projectsList[i] = <ProjectsTile
             project={
                 new Project(
+                    project,
                     cP.typeImplemented,
                     cP.typeGoal,
                     cP.platformsReady,
