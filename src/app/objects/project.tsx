@@ -1,3 +1,5 @@
+import Connection from "./connection"
+
 class Project {
     constructor(
         typeImplemented: string[],
@@ -43,3 +45,5 @@ class Project {
 
     connection: Connection
 }
+
+export default Project

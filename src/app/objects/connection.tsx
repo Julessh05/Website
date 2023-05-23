@@ -1,3 +1,4 @@
+
 class Connection {
     constructor(
         repo: string,
@@ -19,3 +20,4 @@ class Connection {
 
     fdroid: string
 }
+export default Connection
