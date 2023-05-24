@@ -1,3 +1,5 @@
+import readingStyles from "../cssComponents/readingPage.module.css"
+
 import projectsData from "../data/config.json"
 import ProjectsTile from "../components/projectstile/projectstile"
 
@@ -27,11 +29,13 @@ export default function Projects() {
                         "", "", "", ""
                     )
                 )
-            } />
+            }
+            key={project.identifier}
+        />
         i++
     }
     return (
-        <main>
+        <main className={readingStyles.main}>
             <h1>Projects</h1>
             <p>Here's an overview of all my projects</p>
             {projectsList}

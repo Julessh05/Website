@@ -6,7 +6,8 @@ export default function ProjectsTile({ project }: { project: Project }) {
     return (
         <div className={styles.main}>
             <Link
-                href={`/${project.identifier}`}
+                key={project.identifier}
+                href={`projects/${project.identifier}`}
                 style=
                 {
                     {
