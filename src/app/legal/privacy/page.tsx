@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "./page.module.css"
-import generalStyles from "../../cssComponents/smallPage.module.css"
+import generalStyles from "@/app/cssComponents/smallPage.module.css"
 
 export default function Privacy() {
     return (
@@ -54,7 +54,7 @@ export default function Privacy() {
                 These Apps may store their Data encrypted and may sync it to your personal iCloud.
                 These synced Data are not visible or accessible for anyone but yourself.
                 To read more about storing and security, please refer to the projects own
-                page, all Projects can be found <Link href="../../projects">here</Link>.
+                page, all Projects can be found <Link href="@/app/projects">here</Link>.
             </p>
         </main >
     )

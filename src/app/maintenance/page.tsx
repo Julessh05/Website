@@ -1,6 +1,8 @@
+import generalStyles from "@/app/cssComponents/smallPage.module.css"
+
 export default function Maintenance() {
     return (
-        <main>
+        <main className={generalStyles.main}>
             <h1> Maintenance </h1>
             <p>
                 This Website is still in maintenance Mode, meaning
