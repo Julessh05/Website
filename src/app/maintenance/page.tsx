@@ -1,4 +1,4 @@
-import generalStyles from "../../cssComponents/smallPage.module.css"
+import generalStyles from "@/app/cssComponents/smallPage.module.css"
 
 export default function Maintenance() {
     return (
