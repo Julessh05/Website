@@ -37,7 +37,7 @@ export default function Projects() {
     return (
         <main className={readingStyles.main}>
             <h1>Projects</h1>
-            <p>Here's an overview of all my projects</p>
+            <p>Here&rsquo;s an overview of all my projects</p>
             {projectsList}
         </main>
     )
