@@ -56,6 +56,6 @@ export default function Privacy() {
                 To read more about storing and security, please refer to the projects own
                 page, all Projects can be found <Link href="@/app/projects">here</Link>.
             </p>
-        </main>
+        </main >
     )
 }
