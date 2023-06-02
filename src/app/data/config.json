@@ -29,7 +29,8 @@
                 "play-store": null,
                 "app-store": null,
                 "fdroid": null
-            }
+            },
+            "first-version-released": true
         },
         "reading_diary": {
             "type-implemented": [
@@ -66,7 +67,8 @@
                 "play-store": null,
                 "app-store": null,
                 "fdroid": null
-            }
+            },
+            "first-version-released": true
         },
         "financer": {
             "type-ready": [
@@ -93,7 +95,8 @@
                 "play-store": null,
                 "app-store": "https://apps.apple.com/de/app/financer-financial-overview/id6447355054",
                 "fdroid": null
-            }
+            },
+            "first-version-released": true
         },
         "i-am-rich": {
             "type-ready": [
@@ -131,7 +134,8 @@
                 "play-store": null,
                 "app-store": null,
                 "fdroid": null
-            }
+            },
+            "first-version-released": true
         }
     }
 }

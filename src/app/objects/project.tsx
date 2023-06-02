@@ -13,6 +13,7 @@ class Project {
         description: string,
         features: string[],
         connection: Connection,
+        firstVersionReleased: boolean
     ) {
         this.identifier = identifier
         this.typeImplemented = typeImplemented
@@ -25,6 +26,7 @@ class Project {
         this.description = description
         this.features = features
         this.connection = connection
+        this.firstVersionReleased = firstVersionReleased
     }
 
     identifier: string
@@ -48,6 +50,8 @@ class Project {
     features: string[]
 
     connection: Connection
+
+    firstVersionReleased: boolean
 }
 
 export default Project

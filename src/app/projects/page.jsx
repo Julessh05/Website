@@ -6,6 +6,8 @@ import ProjectsTile from "../components/projectstile/projectstile"
 import Project from "../objects/project"
 import Connection from "../objects/connection"
 
+import idToProject from "@/app/data/mapping"
+
 export default function Projects() {
     let projectsList = []
     let i = 0
@@ -14,24 +16,7 @@ export default function Projects() {
         const cPC = cP.connection
         projectsList[i] = <ProjectsTile
             project={
-                new Project(
-                    project,
-                    cP.typeImplemented,
-                    cP.typeGoal,
-                    cP.platformsReady,
-                    cP.platformsGoal,
-                    cP.language,
-                    cP.framework,
-                    cP.name,
-                    cP.description,
-                    cP.features,
-                    new Connection(
-                        cPC.repo,
-                        cPC.playStore,
-                        cPC.appStore,
-                        cPC.fdroid
-                    )
-                )
+                idToProject(project)
             }
             key={project.identifier}
         />
