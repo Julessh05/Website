@@ -1,14 +1,16 @@
 'use client';
 
-import { useParams } from 'next/navigation';
+import { useParams } from 'next/navigation'
+
 import projectsData from "../../data/config.json"
 
 export default function Page() {
-    const id = useParams()
+    let id = useParams()
+    const cP = projectsData.projects[id.slug]
     return (
         <div>
-            <h1>{id}</h1>
-            <p>{projectsData[id].description}</p>
+            <h1>{cP.name}</h1>
+            <p>{cP.description}</p>
         </div>
     )
 }

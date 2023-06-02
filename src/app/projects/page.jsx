@@ -10,8 +10,8 @@ export default function Projects() {
     let projectsList = []
     let i = 0
     for (let project in projectsData.projects) {
-        let cP = projectsData.projects[project]
-        let cPC = cP.connection
+        const cP = projectsData.projects[project]
+        const cPC = cP.connection
         projectsList[i] = <ProjectsTile
             project={
                 new Project(
@@ -26,7 +26,10 @@ export default function Projects() {
                     cP.description,
                     cP.features,
                     new Connection(
-                        "", "", "", ""
+                        cPC.repo,
+                        cPC.playStore,
+                        cPC.appStore,
+                        cPC.fdroid
                     )
                 )
             }
