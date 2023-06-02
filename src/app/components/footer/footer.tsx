@@ -4,7 +4,9 @@ import styles from './footer.module.css'
 export default function Footer() {
     return (
         <div>
-            <hr />
+            <div className={styles.divider}>
+                <hr />
+            </div>
             <footer className={styles.footer}>
                 <p> © Julian Schumacher 2023 </p>
                 <p> All rights reserved </p>
