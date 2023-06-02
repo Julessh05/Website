@@ -1,3 +1,8 @@
+export const metadata = {
+    title: 'Julian Schumacher - Support',
+    description: 'Get support for my App',
+}
+
 export default function Support() {
     return (
         <main>

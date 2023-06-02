@@ -124,7 +124,7 @@
             "language": "dart",
             "framework": "flutter",
             "name": "I am rich",
-            "description": "Show of with how rich you are",
+            "description": "Show of how rich you are",
             "features": [
                 "Show of your money",
                 "Read about how stupid I am rich Apps really are"
@@ -136,6 +136,62 @@
                 "fdroid": null
             },
             "first-version-released": true
+        },
+        "craid": {
+            "type-ready": [
+                "desktop"
+            ],
+            "type-goal": [
+                "desktop"
+            ],
+            "platforms-ready": [
+                "macos"
+            ],
+            "platforms-goal": [
+                "macos"
+            ],
+            "language": "swift",
+            "framework": null,
+            "name": "Craid",
+            "description": "macOS command line tool to help me on my machine",
+            "features": [
+                "Delete moodle directory"
+            ],
+            "connection": {
+                "repo": "https://github.com/Julessh05/Craid",
+                "play-store": null,
+                "app-store": null,
+                "fdroid": null
+            },
+            "first-version-released": true
+        },
+        "protecto-pass": {
+            "type-ready": [],
+            "type-goal": [
+                "mobile",
+                "desktop"
+            ],
+            "platforms-ready": [],
+            "platforms-goal": [
+                "ios",
+                "macos"
+            ],
+            "language": "Swift",
+            "framework": "SwiftUI",
+            "name": "Protecto Pass",
+            "description": "The one and only simple, secure and intuitive Password Safe to safely store your Passwords, Keys, and confidential data and documents",
+            "features": [
+                "Securely store your password",
+                "Sync between devices",
+                "Use different encryption algorithms"
+            ],
+            "connection": {
+                "repo": "https://github.com/Julessh05/Protecto-Pass",
+                "play-store": null,
+                "app-store": null,
+                "fdroid": null
+            },
+            "first-version-released": false
         }
     }
 }

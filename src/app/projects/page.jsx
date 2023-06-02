@@ -8,6 +8,11 @@ import Connection from "../objects/connection"
 
 import idToProject from "@/app/data/mapping"
 
+export const metadata = {
+    title: 'Julian Schumacher - Projects',
+    description: 'My personal Projects',
+}
+
 export default function Projects() {
     let projectsList = []
     let i = 0

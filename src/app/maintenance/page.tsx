@@ -1,5 +1,10 @@
 import generalStyles from "@/app/cssComponents/smallPage.module.css"
 
+export const metadata = {
+    title: 'Julian Schumacher - Maintenance',
+    description: 'This Website is still in maintenance Mode, meaning it some features do not work, some links are not connected to the real destination yet and some design may be looking a bit odd, overlapping each other or simply do not work on some devices / pages.',
+}
+
 export default function Maintenance() {
     return (
         <main className={generalStyles.main}>

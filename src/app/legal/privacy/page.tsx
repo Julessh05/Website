@@ -2,6 +2,11 @@ import Link from "next/link"
 import styles from "./page.module.css"
 import generalStyles from "@/app/cssComponents/smallPage.module.css"
 
+export const metadata = {
+    title: 'Julian Schumacher - Privacy',
+    description: 'Privacy policy regarding my projects',
+}
+
 export default function Privacy() {
     return (
         <main className={[generalStyles.main, styles.main].join(' ')}>
