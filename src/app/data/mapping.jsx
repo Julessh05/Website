@@ -1,4 +1,4 @@
-import projectsData from "./config.json"
+import projectsData from "./projects.json"
 
 import Project from "../objects/project"
 import Connection from "../objects/connection"

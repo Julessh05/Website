@@ -1,10 +1,7 @@
 import readingStyles from "../cssComponents/readingPage.module.css"
 
-import projectsData from "../data/config.json"
+import projectsData from "../data/projects.json"
 import ProjectsTile from "../components/projectstile/projectstile"
-
-import Project from "../objects/project"
-import Connection from "../objects/connection"
 
 import idToProject from "@/app/data/mapping"
 
