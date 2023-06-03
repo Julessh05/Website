@@ -1,10 +1,14 @@
 import readingStyles from "../cssComponents/readingPage.module.css"
 
-import projectsData from "../data/config.json"
+import projectsData from "../data/projects.json"
 import ProjectsTile from "../components/projectstile/projectstile"
 
-import Project from "../objects/project"
-import Connection from "../objects/connection"
+import idToProject from "@/app/data/mapping"
+
+export const metadata = {
+    title: 'Julian Schumacher - Projects',
+    description: 'My personal Projects',
+}
 
 export default function Projects() {
     let projectsList = []
@@ -14,24 +18,7 @@ export default function Projects() {
         const cPC = cP.connection
         projectsList[i] = <ProjectsTile
             project={
-                new Project(
-                    project,
-                    cP.typeImplemented,
-                    cP.typeGoal,
-                    cP.platformsReady,
-                    cP.platformsGoal,
-                    cP.language,
-                    cP.framework,
-                    cP.name,
-                    cP.description,
-                    cP.features,
-                    new Connection(
-                        cPC.repo,
-                        cPC.playStore,
-                        cPC.appStore,
-                        cPC.fdroid
-                    )
-                )
+                idToProject(project)
             }
             key={project.identifier}
         />

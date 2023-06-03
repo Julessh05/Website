@@ -2,7 +2,7 @@
 
 import { useParams } from 'next/navigation'
 
-import projectsData from "../../data/config.json"
+import projectsData from "../../data/projects.json"
 
 export default function Page() {
     let id = useParams()
