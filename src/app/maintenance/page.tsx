@@ -1,4 +1,4 @@
-import generalStyles from "@/app/cssComponents/smallPage.module.css"
+import generalStyles from "@/app/cssComponents/readingPage.module.css"
 
 export const metadata = {
     title: 'Julian Schumacher - Maintenance',

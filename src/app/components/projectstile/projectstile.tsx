@@ -5,6 +5,7 @@ import styles from "./projectstile.module.css"
 export default function ProjectsTile({ project }: { project: Project }) {
     return (
         <div className={styles.main}>
+            <hr />
             <Link
                 key={project.identifier}
                 href={`projects/${project.identifier}`}

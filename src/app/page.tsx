@@ -23,9 +23,10 @@ export default function Home() {
               [
                 'https://apps.apple.com/de/developer/julian-schumacher/id1681063160',
                 'https://github.com/Julessh05',
-                'https://play.google.com/store'
+                'https://play.google.com/store/apps/developer?id=Julian+Schumacher'
               ]
             }
+            color='white'
           />
         </center>
       </div >
