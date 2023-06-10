@@ -1,9 +1,10 @@
 import styles from "./linkDiv.module.css"
 
-export default function LinkDiv({ destination, name, width }: { destination: string, name: string, width: number }) {
+export default function LinkDiv({ destination, name, width, color }: { destination: string, name: string, width: number, color: string }) {
     return (
         <a href={destination} className={styles.link} style={
             {
+                color: color,
                 width: `${width}vw`
             }
         }
