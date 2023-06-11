@@ -8,10 +8,14 @@ export default function Footer() {
                 <hr />
             </div>
             <footer className={styles.footer}>
-                <p> © Julian Schumacher 2023 </p>
-                <p> All rights reserved </p>
-                <p> This Website is still in the initial Development Phase. </p>
-                <p> Meaning not even the first Version is ready to be released, which results in some features not working correctly at the moment </p>
+                <div className={styles.copyright}>
+                    <p> © Julian Schumacher 2023 </p>
+                    <p> All rights reserved </p>
+                </div>
+                <div className={styles.maintenance}>
+                    <p> This Website is still in the initial Development Phase. </p>
+                    <p> Which means Features could not work as expected, or some sites may look inconvenient on some devices. </p>
+                </div>
                 <Link href={'/maintenance'}> More Information </Link>
             </footer>
         </div>
