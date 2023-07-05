@@ -37,7 +37,8 @@
     ".next/types/**/*.ts",
     "src/app/projects/page.tsx",
     "src/app/projects/[slug]/page.tsx",
-    "src/app/data/mapping.jsx"
+    "src/app/data/mapping.jsx",
+    "src/app/objects/connection.jsx"
   ],
   "exclude": [
     "node_modules"

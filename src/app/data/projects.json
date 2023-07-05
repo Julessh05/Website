@@ -26,7 +26,7 @@
             ],
             "connection": {
                 "repo": "https://github.com/Julessh05/2Do",
-                "play-store": null,
+                "play-store": "https://play.google.com/store/apps/details?id=com.jules.todo",
                 "app-store": null,
                 "fdroid": null
             },
@@ -64,7 +64,7 @@
             ],
             "connection": {
                 "repo": "https://github.com/Julessh05/Reading-Diary",
-                "play-store": null,
+                "play-store": "https://play.google.com/store/apps/details?id=com.jules.reading_diary",
                 "app-store": null,
                 "fdroid": null
             },
