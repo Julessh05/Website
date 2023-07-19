@@ -13,6 +13,7 @@ export default function Page() {
         <div className={generalstyles.main}>
             <h1>{project.name}</h1>
             <p>{project.description}</p>
+            {/*
             <p>{project.connection.getActive()}</p>
             <LinkDivRow
                 names={project.connection.getActive().keys()}
@@ -20,6 +21,7 @@ export default function Page() {
                 color='black'
             >
             </LinkDivRow>
+            */}
         </div>
     )
 }
