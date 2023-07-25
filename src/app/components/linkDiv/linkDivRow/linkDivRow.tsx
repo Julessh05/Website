@@ -2,7 +2,16 @@ import { ReactElement } from 'react'
 import LinkDiv from '../linkDiv'
 import styles from './linkDivRow.module.css'
 
-export default function LinkDivRow({ names, destinations, color }: { names: string[], destinations: string[], color: string }) {
+export default function LinkDivRow(
+    {
+        names,
+        destinations,
+        color
+    }: {
+        names: string[],
+        destinations: string[],
+        color: string
+    }) {
     let result: ReactElement[] = []
     // TODO: change
     const isMobile: boolean = false
