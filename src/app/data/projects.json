@@ -27,7 +27,7 @@
             "connection": {
                 "repo": "https://github.com/Julessh05/2Do",
                 "play-store": "https://play.google.com/store/apps/details?id=com.jules.todo",
-                "app-store": null,
+                "app-store": "https://apps.apple.com/de/app/2do-organize-your-tasks/id6450028797",
                 "fdroid": null
             },
             "first-version-released": true
@@ -65,7 +65,7 @@
             "connection": {
                 "repo": "https://github.com/Julessh05/Reading-Diary",
                 "play-store": "https://play.google.com/store/apps/details?id=com.jules.reading_diary",
-                "app-store": null,
+                "app-store": "https://apps.apple.com/de/app/reading-diary-book-journal/id6450028928",
                 "fdroid": null
             },
             "first-version-released": true
