@@ -4,7 +4,6 @@
     opacity: .7;
     border-radius: 50px 50px;
     border-style: solid;
-    border-color: white;
     border-width: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -14,6 +13,7 @@
     transition-property: border-radius;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
+    max-width: 30vw;
 }
 
 .link:hover {

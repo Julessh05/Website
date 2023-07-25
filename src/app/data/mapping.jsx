@@ -19,8 +19,8 @@ export default function idToProject(projectID) {
         object.features,
         new Connection(
             connection.repo,
-            connection.playStore,
-            connection.appStore,
+            connection.playstore,
+            connection.appstore,
             connection.fdroid
         ),
         object.firstVersionReleased
