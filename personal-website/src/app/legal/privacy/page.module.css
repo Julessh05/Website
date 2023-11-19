@@ -1,0 +1,26 @@
+.main {
+    text-align: left;
+    padding: 0 10vw 2.5vh 10vw;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.main h2  {
+    text-align: left;
+}
+
+.main p {
+    text-align: left;
+}
+
+.heading {
+    padding-top: 2vh;
+}
+
+.webPrivacyList {
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
