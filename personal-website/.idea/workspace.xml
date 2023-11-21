@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85621c8b-852e-4170-b69e-fb4369ec62cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/data/mapping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/data/projects.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/objects/connection.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/objects/project.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/support.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +59,7 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Second Brain/Business/Development/Web/Website/personal-website/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -111,7 +101,8 @@
       <workItem from="1700479516864" duration="602000" />
       <workItem from="1700502995884" duration="263000" />
       <workItem from="1700569565754" duration="2031000" />
-      <workItem from="1700572128398" duration="2921000" />
+      <workItem from="1700572128398" duration="3912000" />
+      <workItem from="1700589473644" duration="28000" />
     </task>
     <servers />
   </component>
