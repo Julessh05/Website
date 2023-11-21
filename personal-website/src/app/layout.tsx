@@ -2,6 +2,7 @@ import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import './globals.css'
 import React from "react";
+import Header from "@/app/header";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -42,14 +43,12 @@ export const metadata: Metadata = {
             'max-snippet': -1,
         },
     },
+    metadataBase: new URL('https://julianschumacher.dev'),
     twitter: {
         card: 'summary_large_image',
         title: 'Julian Schumacher',
         description: 'My personal Website',
-        //site: '',
-        //siteId: '1467726470533754880',
         creator: '@julessh05',
-        //creatorId: '1467726470533754880',
         images: [],
     },
     openGraph: {
@@ -60,17 +59,27 @@ export const metadata: Metadata = {
         images: [],
         locale: 'en_US',
         type: 'website',
+        countryName: 'germany',
+        emails: ['support@julianschumacher.dev']
     },
+    category: 'development',
+    referrer: 'no-referrer',
+    verification: {
+        google: '', // TODO: Add Google Verification
+    }
 }
 
-export default function RootLayout({
-                                       children,
-                                   }: {
-    children: React.ReactNode
-}) {
+export default function RootLayout(
+    {
+        children,
+    }: { children: React.ReactNode }
+) {
     return (
         <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+        <Header></Header>
+        {children}
+        </body>
         </html>
     )
 }

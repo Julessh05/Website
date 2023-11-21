@@ -1,0 +1,20 @@
+.nav {
+    width: 100vw;
+    text-align: center;
+    opacity: .75;
+    text-decoration: none;
+    display: inline;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    padding: 2vw;
+    text-decoration: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
