@@ -1,0 +1,10 @@
+.column {
+  flex: 50%;
+  margin: 1rem;
+}
+
+.withBackground {
+  background-image: url("../../public/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

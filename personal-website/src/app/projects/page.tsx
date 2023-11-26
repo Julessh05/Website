@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <main>
             <ul>
-                {types.map(type => <li key={type}>type</li>)}
+                {types.map(type => <li key={type}>{type}</li>)}
             </ul>
             <ul>
                 {projects.map(project => (

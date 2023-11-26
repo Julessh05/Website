@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "./page.module.css"
-import generalStyles from "@/app/css_components/readingPage.module.css"
+import generalStyles from "@/app/css_components/readingPage.module.scss"
 
 export const metadata = {
     title: 'Julian Schumacher - Privacy',
@@ -36,7 +36,8 @@ export default function Privacy() {
             </p>
             <h2 className={styles.heading}> Flutter Specific </h2>
             <p>
-                For some of my Apps i use <a href="https://dart.dev">Googles Language Dart</a> and the corresponding <a href="https://flutter.dev">Framework Flutter</a>.
+                For some of my Apps i use <a href="https://dart.dev">Googles Language Dart</a> and the corresponding <a
+                href="https://flutter.dev">Framework Flutter</a>.
                 You can find more about these languages on the linked Sites.
                 Because Flutter and Dart are based on the community and packages / plugins
                 developed by the community, not every code, that is used in my App
@@ -49,7 +50,8 @@ export default function Privacy() {
                 To see more information about the packages used in an individual App,
                 please refer to the Github repository of this App, mostly linked in the Store or
                 the App itself.
-                If you do not find the link, you can <a href="https://github.com/Julessh05?tab=repositories">search here</a>.
+                If you do not find the link, you can <a href="https://github.com/Julessh05?tab=repositories">search
+                here</a>.
             </p>
             <h2 className={styles.heading}> Swift Specific </h2>
             <p>
@@ -61,7 +63,7 @@ export default function Privacy() {
                 To read more about storing and security, please refer to the projects own
                 page, all Projects can be found <Link href="/">here</Link>.
             </p>
-        </main >
+        </main>
 
     )
 }
