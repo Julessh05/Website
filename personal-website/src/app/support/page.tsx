@@ -1,9 +1,11 @@
+import readingStyles from "./../css_components/readingPage.module.scss"
+
 export default function Support() {
     return (
-        <main>
+        <main className={readingStyles.main}>
             <h1>Support</h1>
             <p>If you need support, you can reach the support via <a
-                href="mailto:support@julianschumacher.dev">E-mail</a>.</p>
+                href="mailto:support@julianschumacher.dev?subject=Support Request">E-mail</a>.</p>
             <p>For information regarding current issues, problems and projects, please first refer to <a
                 href="https://github.com/Julessh05">Github</a>.</p>
             <p>If you search for further information regarding a specific project, please refer to that project&rsquo;s
