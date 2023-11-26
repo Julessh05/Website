@@ -9,7 +9,7 @@ export default function Home() {
                     <div className={styles.column}>
                         <Image
                             src="/me.jpg"
-                            alt={"A Picture of myself"}
+                            alt="A Picture of myself"
                             width={100}
                             height={150}
                             className="block ml-auto mr-auto"
