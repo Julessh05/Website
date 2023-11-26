@@ -4,7 +4,11 @@
 }
 
 .withBackground {
-  background-image: url("../../public/background.png");
+  background-image: url("../../public/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.content {
+  padding-top: 4rem;
 }

@@ -3,10 +3,8 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <main className={`h-screen ${styles.withBackground}`}>
-            <div className="m-4">
-                <h1>Hi</h1>
-                <p>I&rsquo;m glad you&rsquo;re here</p>
+        <main>
+            <div>
                 <div className="flex">
                     <div className={styles.column}>
                         <Image
@@ -14,11 +12,13 @@ export default function Home() {
                             alt={"A Picture of myself"}
                             width={100}
                             height={150}
+                            className="block ml-auto mr-auto"
                         >
                         </Image>
                     </div>
                     <div className={styles.column}>
-                        <p>Text</p>
+                        <p>Hi</p>
+                        <p>I&rsquo;m Julian, an 18 year old Developer</p>
                     </div>
                 </div>
             </div>

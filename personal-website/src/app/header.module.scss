@@ -1,20 +1,26 @@
 .nav {
-    width: 100vw;
-    text-align: center;
-    opacity: .75;
-    text-decoration: none;
-    display: inline;
+  width: 90vw;
+  text-align: center;
+  opacity: .75;
+  text-decoration: none;
+  display: inline;
+  z-index: 10;
+  position: absolute;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 25px;
+  margin: .5rem 5vw;
 }
 
 .nav ul li {
-    list-style: none;
-    display: inline;
-    justify-content: space-around;
-    padding: 2vw;
-    text-decoration: none;
+  list-style: none;
+  display: inline;
+  justify-content: space-around;
+  padding: 2vw;
+  text-decoration: none;
 }
 
 .nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from "./page.module.css"
+import styles from "./page.module.scss"
 import generalStyles from "@/app/css_components/readingPage.module.scss"
 
 export const metadata = {
