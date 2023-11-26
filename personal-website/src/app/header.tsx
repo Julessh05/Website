@@ -9,13 +9,13 @@ export default function Header() {
                     <Link href='/'>Home</Link>
                 </li>
                 <li>
-                    <Link href='projects'>Projects</Link>
+                    <Link href='/projects'>Projects</Link>
                 </li>
                 <li>
-                    <Link href='legal/privacy'>Privacy Policy</Link>
+                    <Link href='/legal/privacy'>Privacy Policy</Link>
                 </li>
                 <li>
-                    <Link href='support.tsx'>Support</Link>
+                    <Link href='/support'>Support</Link>
                 </li>
             </ul>
         </nav>

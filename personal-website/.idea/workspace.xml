@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85621c8b-852e-4170-b69e-fb4369ec62cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/support/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/mapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/mapping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/data/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/objects/connection.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/objects/connection.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/objects/project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/objects/project.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/support.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -34,6 +43,9 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -48,7 +60,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;refactor/recreate-project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Second Brain/Business/Development/Web/Website/personal-website&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -59,14 +73,21 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Second Brain/Business/Development/Web/Website/personal-website/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="QodanaCloudProjectLink">
+    <option name="linkedProjectId" value="pWwqg" />
+    <option name="linkedProjectName" value="personal-website" />
+    <option name="organizationId" value="zxEPd" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/projects" />
       <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src/app/support" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,6 +124,18 @@
       <workItem from="1700569565754" duration="2031000" />
       <workItem from="1700572128398" duration="3912000" />
       <workItem from="1700589473644" duration="28000" />
+      <workItem from="1700589511295" duration="1770000" />
+      <workItem from="1700593542623" duration="2226000" />
+      <workItem from="1700644071046" duration="2747000" />
+      <workItem from="1700652056113" duration="28000" />
+      <workItem from="1700657637659" duration="402000" />
+      <workItem from="1700658405939" duration="26000" />
+      <workItem from="1700750933667" duration="3000" />
+      <workItem from="1700750971682" duration="605000" />
+      <workItem from="1700760783363" duration="89000" />
+      <workItem from="1700760875274" duration="1755000" />
+      <workItem from="1700809056608" duration="1296000" />
+      <workItem from="1700993599868" duration="323000" />
     </task>
     <servers />
   </component>

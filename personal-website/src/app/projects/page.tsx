@@ -1,15 +1,15 @@
+import getProjects from "@/app/data/mapping";
 import Project from "@/app/objects/project";
 
-import projectsData from "@/app/data/projects.json"
-import idToProject from "@/app/data/mapping";
-
 export default function Projects() {
-    let projects: Project[] = [];
-    for (const project in projectsData.projects) {
-        projects.push(idToProject(project))
-    }
+    const ar: any[] = getProjects()
+    const projects: Project[] = ar[0]
+    const types: string[] = ar[1]
     return (
         <main>
+            <ul>
+                {types.map(type => <li key={type}>type</li>)}
+            </ul>
             <ul>
                 {projects.map(project => (
                         <li key={project.identifier}>

@@ -1,6 +1,9 @@
 import Connection from "@/app/objects/connection";
 
 export default class Project {
+
+    projectType: string
+
     identifier: string
 
     typeImplemented: string[]
@@ -28,6 +31,7 @@ export default class Project {
     activeSupport: boolean
 
     constructor(
+        projectType: string,
         identifier: string,
         typeImplemented: string[],
         typeGoal: string[],
@@ -42,6 +46,7 @@ export default class Project {
         firstVersionReleased: boolean,
         activeSupport: boolean,
     ) {
+        this.projectType = projectType
         this.identifier = identifier;
         this.typeImplemented = typeImplemented;
         this.typeGoal = typeGoal;
