@@ -4,10 +4,30 @@
 
 :root {
   --foreground-rgb: rgb(255, 255, 255);
+  overscroll-behavior: none;
 }
 
 body {
-  margin: 0;
   padding: 0;
+  margin: 0 0 3rem;
   color: var(--foreground-rgb);
+}
+
+h1 {
+  font-size: 32px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+main {
+  text-align: left;
+  margin: auto;
+  max-width: 800px;
 }

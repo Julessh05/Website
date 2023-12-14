@@ -1,23 +1,49 @@
-import getProjects from "@/app/data/mapping";
-import Project from "@/app/objects/project";
-import ProjectType from "@/app/objects/project_type";
+'use client'
+
+import getProjects from "../data/mapping";
+import Project from "../objects/project";
+import ProjectType from "../objects/project_type";
+import {useState} from "react";
 
 export default function Projects() {
     const ar: any[] = getProjects()
     const projects: Project[] = ar[0]
     const types: ProjectType[] = ar[1]
-    console.log(types)
+    const [type, setType] = useState(types[0])
+    const [dropdownShown, setDropdownShown] = useState(false)
+
+    function dropdownItemSelected(projectType: ProjectType) {
+        setType(_ => projectType)
+        setDropdownShown(_ => false)
+    }
+
     return (
         <main>
+            <div>
+                <button type="button" onClick={() => setDropdownShown(_ => !dropdownShown)}>{type.name}</button>
+                <div className={`${dropdownShown ? "inline-block" : "hidden"} absolute bg-black`}>
+                    {types.map(type =>
+                        <button
+                            className="block p-1"
+                            key={type.identifier}
+                            type="button"
+                            onClick={() => dropdownItemSelected(type)}
+                        >{type.name}
+                        </button>
+                    )}
+                </div>
+                {/* Divider */}
+                <div style={
+                    {
+                        height: "10px"
+                    }
+                }></div>
+            </div>
             <ul>
-                {types.map(type => <li key={type.identifier}>{type.name}</li>)}
-            </ul>
-            <ul>
-                {projects.map(project => (
-                        <li key={project.identifier}>
-                            {project.name}
-                        </li>
-                    )
+                {projects.filter(p => p.projectType == type.identifier).map(project =>
+                    <li key={project.identifier}>
+                        {project.name}
+                    </li>
                 )}
             </ul>
         </main>

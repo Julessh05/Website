@@ -2,7 +2,7 @@ import projectsData from "./projects.json"
 
 import Project from "../objects/project"
 import Connection from "../objects/connection"
-import ProjectType from "@/app/objects/project_type";
+import ProjectType from "../objects/project_type";
 
 
 export default function getProjects() {

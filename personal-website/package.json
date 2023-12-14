@@ -4,6 +4,12 @@
   "description": "My personal Website",
   "homepage": "https://julianschumacher.dev",
   "repository": "https://github.com/Julessh05/Website",
+  "maintainers": [
+    "Julian Schumacher"
+  ],
+  "contributors": [
+    "Julian Schumacher"
+  ],
   "keywords": [
     "personal website"
   ],

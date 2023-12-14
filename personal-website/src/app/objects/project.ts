@@ -1,4 +1,4 @@
-import Connection from "@/app/objects/connection";
+import Connection from "./connection";
 
 export default class Project {
 

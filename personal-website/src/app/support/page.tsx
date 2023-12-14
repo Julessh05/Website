@@ -1,15 +1,16 @@
-import readingStyles from "./../css_components/readingPage.module.scss"
+import Link from "next/link";
 
 export default function Support() {
     return (
-        <main className={readingStyles.main}>
+        <main>
             <h1>Support</h1>
             <p>If you need support, you can reach the support via <a
                 href="mailto:support@julianschumacher.dev?subject=Support Request">E-mail</a>.</p>
             <p>For information regarding current issues, problems and projects, please first refer to <a
                 href="https://github.com/Julessh05">Github</a>.</p>
             <p>If you search for further information regarding a specific project, please refer to that project&rsquo;s
-                Github Repository and it&rsquo;s issues. You can find the projects <a href="/projects">here</a>.</p>
+                Github Repository and it&rsquo;s issues. You can find the projects <Link href={"/projects"}>here</Link>.
+            </p>
         </main>
     )
 }

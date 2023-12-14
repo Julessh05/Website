@@ -1,6 +1,5 @@
 import Link from "next/link"
 import styles from "./page.module.scss"
-import generalStyles from "@/app/css_components/readingPage.module.scss"
 
 export const metadata = {
     title: 'Julian Schumacher - Privacy',
@@ -9,7 +8,7 @@ export const metadata = {
 
 export default function Privacy() {
     return (
-        <main className={[generalStyles.main, styles.main].join(' ')}>
+        <main className={styles.main}>
             <h1> Website </h1>
             <h2 className={styles.heading}> General </h2>
             <p>
