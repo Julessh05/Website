@@ -1,9 +1,12 @@
-'use client'
+"use client";
 
-export default function Error() {
+export default function Error({statusCode}: { statusCode: number }) {
     return (
         <main>
-            {/* TODO: add Code */}
+            <div>
+                <p>An Error appeared, please try again</p>
+                <p>Error Code: {statusCode}</p>
+            </div>
         </main>
-    )
+    );
 }

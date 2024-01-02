@@ -1,15 +1,19 @@
-.column {
-  flex: 50%;
-  margin: 1rem;
+.background {
+  background-color: var(--background-rgb-dark);
 }
 
-.withBackground {
-  // Question: https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css
-  // Answer: https://stackoverflow.com/a/23208450
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url("../../public/background.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+@media(prefers-color-scheme: dark) {
+  .background {
+    background-color: var(--background-rgb-light);
+  }
+}
+
+.column {
+
+}
+
+.portrait {
+
 }
 
 .content {

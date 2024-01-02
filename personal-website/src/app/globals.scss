@@ -3,14 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: rgb(255, 255, 255);
+  --foreground-rgb-white: rgb(255, 255, 255);
+  --foreground-rgb-black: rgb(50, 50, 50);
+  --background-rgb-light: rgb(211, 211, 211);
+  --background-rgb-dark: rgb(128, 128, 128);
+  --body-light: rgb(255, 255, 255);
+  --body-dark: rgb(31, 31, 31);
   overscroll-behavior: none;
 }
 
 body {
   padding: 0;
   margin: 0 0 3rem;
-  color: var(--foreground-rgb);
+  color: var(--foreground-rgb-white);
+  background-color: var(--body-light);
+}
+
+@media(prefers-color-scheme: dark) {
+  body {
+    color: var(--foreground-rgb-black);
+    background-color: var(--body-dark);
+  }
 }
 
 h1 {
