@@ -1,5 +1,6 @@
 .background {
   background-color: var(--background-rgb-dark);
+  display: flex;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -9,7 +10,8 @@
 }
 
 .column {
-
+  display: inline-grid;
+  flex: 1;
 }
 
 .portrait {

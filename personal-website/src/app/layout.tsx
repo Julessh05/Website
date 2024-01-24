@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
-import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Julian Schumacher",
-  description: "My personal development Website",
+  description: "My personal Website",
   publisher: "Julian Schumacher",
   applicationName: "Next",
   generator: "Next.js",
