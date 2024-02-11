@@ -2,10 +2,8 @@
 
 import styles from "./page.module.scss";
 import Image from "next/image";
-import { useState } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
   return (
     <main>
       <div className={styles.background}>
@@ -16,6 +14,9 @@ export default function Home() {
               alt="A Portrait of myself"
               width={150}
               height={150}
+              style={{
+                borderRadius: "25px",
+              }}
             />
           </div>
           <h1>Julian Schumacher</h1>
@@ -55,12 +56,6 @@ export default function Home() {
             </li>
           </ul>
         </div>
-      </div>
-      <div>
-        {/* TODO: check onClick Function */}
-        <button type="button" onClick={() => setDarkMode(!darkMode)}>
-          <Image src={""} alt="Switch between light and dark mode"></Image>
-        </button>
       </div>
     </main>
   );

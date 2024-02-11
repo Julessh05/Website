@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85621c8b-852e-4170-b69e-fb4369ec62cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;refactor/recreate-project&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.1.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.4&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.17&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Second Brain/Business/Development/Web/Website/personal-website/src/app/projects&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -197,6 +197,11 @@
       <workItem from="1705484770831" duration="329000" />
       <workItem from="1705849658822" duration="84000" />
       <workItem from="1705849755054" duration="1819000" />
+      <workItem from="1706450359050" duration="9000" />
+      <workItem from="1706450376141" duration="35000" />
+      <workItem from="1706450416090" duration="1084000" />
+      <workItem from="1707481489542" duration="1790000" />
+      <workItem from="1707644303005" duration="5385000" />
     </task>
     <servers />
   </component>
