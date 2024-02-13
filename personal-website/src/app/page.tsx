@@ -16,7 +16,7 @@ export default function Home() {
 function HomeMobile() {
   return (
     <main>
-      <div className={styles.background}>
+      <div className={styles.backgroundMobile}>
         <Image
           src="/me.jpg"
           alt="A Portrait of myself"
@@ -24,48 +24,53 @@ function HomeMobile() {
           height={150}
           style={{
             borderRadius: "25px",
+            position: "relative",
+            left: "50%",
+            transform: "translateX(-50%)",
           }}
         />
-        <h1>Julian Schumacher</h1>
+        <h1 className="text-center">Julian Schumacher</h1>
         <h2>Software Engineer</h2>
-        <h3>Socials</h3>
-        <p>Let&rsquo;s connect</p>
-        <div className={styles.linkDiv}>
-          <ul>
-            <li>
-              <Link href="https://github.com/Julessh05" target="_blank">
-                Github
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://www.linkedin.com/in/julian-schumacher-b6005021a/"
-                target="_blank"
-              >
-                LinkedIn
-              </Link>
-            </li>
-            <li>
-              <Link href="https://x.com/Julessh05" target="_blank">
-                X
-              </Link>
-            </li>
-            <li>
-              <Link href="https://instagram.com/Julessh05" target="_blank">
-                Instagram
-              </Link>
-            </li>
-            <li>
-              <Link href="" target="_blank">
-                Patreon
-              </Link>
-            </li>
-          </ul>
+        <div className={styles.outerLinkDiv}>
+          <h3>Socials</h3>
+          <p>Let&rsquo;s connect</p>
+          <div className={styles.innerLinkDiv}>
+            <ul>
+              <li>
+                <Link href="https://github.com/Julessh05" target="_blank">
+                  Github
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.linkedin.com/in/julian-schumacher-b6005021a/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </Link>
+              </li>
+              <li>
+                <Link href="https://x.com/Julessh05" target="_blank">
+                  X
+                </Link>
+              </li>
+              <li>
+                <Link href="https://instagram.com/Julessh05" target="_blank">
+                  Instagram
+                </Link>
+              </li>
+              <li>
+                <Link href="" target="_blank">
+                  Patreon
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div style={{ paddingTop: "20px" }}>
+        <div className={styles.outerLinkDiv}>
           <h3>Other Links</h3>
           <p>Projects and Connections</p>
-          <div className={styles.linkDiv}>
+          <div className={styles.innerLinkDiv}>
             <ul>
               <li>
                 <Link href="https://v3s.tech" target="_blank">
@@ -116,7 +121,7 @@ function HomeDesktop() {
         <div className={styles.column}>
           <h3>Socials</h3>
           <p>Let&rsquo;s connect</p>
-          <div className={styles.linkDiv}>
+          <div className={styles.innerLinkDiv}>
             <ul>
               <li>
                 <Link href="https://github.com/Julessh05" target="_blank">
@@ -148,10 +153,10 @@ function HomeDesktop() {
               </li>
             </ul>
           </div>
-          <div style={{ paddingTop: "20px" }}>
+          <div className={styles.outerLinkDiv}>
             <h3>Other Links</h3>
             <p>Projects and Connections</p>
-            <div className={styles.linkDiv}>
+            <div className={styles.innerLinkDiv}>
               <ul>
                 <li>
                   <Link href="https://v3s.tech" target="_blank">
