@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 :root {
+  // Color Ideas: https://www.picmonkey.com/blog/website-color-schemes#sophisticated-website-color-schemes
+  // https://www.awwwards.com/sites/moooi-digital-flagship-store
   --foreground-rgb-white: rgb(255, 255, 255);
   --foreground-rgb-black: rgb(50, 50, 50);
   --background-rgb-light: rgb(211, 211, 211);
-  --background-rgb-dark: rgb(128, 128, 128);
-  --body-light: rgb(255, 255, 255);
+  --background-rgb-dark: #1F4959;
+  --body-light: #011425;
   --body-dark: rgb(31, 31, 31);
   overscroll-behavior: none;
 }
@@ -33,6 +35,10 @@ h1 {
 
 h2 {
   font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 a {

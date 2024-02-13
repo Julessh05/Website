@@ -21,8 +21,13 @@
 .column {
   display: inline-grid;
   flex: 1;
+  padding: 20px 25px;
 }
 
 .content {
   padding-top: 4.5rem;
+}
+
+.linkDiv {
+  padding-top: 6px;
 }
