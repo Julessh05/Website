@@ -97,6 +97,7 @@ function HomeMobile() {
           </div>
         </div>
       </div>
+      <div className={styles.spacer}></div>
     </main>
   );
 }

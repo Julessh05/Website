@@ -13,7 +13,7 @@
 }
 
 .backgroundMobile {
-  margin: 100px auto;
+  margin: 150px auto;
   background-color: var(--background-rgb-dark);
   background-position: center;
   display: block;
@@ -45,4 +45,9 @@
 
 .outerLinkDiv {
   padding-top: 20px;
+}
+
+.spacer {
+  margin: 150px;
+  height: 700px;
 }
