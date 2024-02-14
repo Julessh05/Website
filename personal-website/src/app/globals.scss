@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  // Color Ideas: https://www.picmonkey.com/blog/website-color-schemes#sophisticated-website-color-schemes
+  // https://www.awwwards.com/sites/moooi-digital-flagship-store
+  --foreground-rgb-white: rgb(255, 255, 255);
+  --foreground-rgb-black: rgb(50, 50, 50);
+  --background-rgb-light: rgb(211, 211, 211);
+  --background-rgb-dark: #1F4959;
+  --body-light: #011425;
+  --body-dark: rgb(31, 31, 31);
+  overscroll-behavior: none;
+}
+
+body {
+  padding: 0;
+  margin: 0 0 3rem;
+  color: var(--foreground-rgb-white);
+  background-color: var(--body-light);
+}
+
+@media(prefers-color-scheme: dark) {
+  body {
+    color: var(--foreground-rgb-black);
+    background-color: var(--body-dark);
+  }
+}
+
+h1 {
+  font-size: 32px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+main {
+  text-align: left;
+  margin: auto;
+  max-width: 800px;
+}

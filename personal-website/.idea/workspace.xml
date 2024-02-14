@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85621c8b-852e-4170-b69e-fb4369ec62cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YNymkpdjksBoNMW3YGuZyk5MWv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;refactor/recreate-project&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.1.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Second Brain/Business/Development/Web/Website/personal-website/src/app/projects&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install prettier.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install react-device-detect.executor&quot;: &quot;Run&quot;,
+    &quot;npm.update.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Second Brain/Business/Development/Web/Website/personal-website/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Second Brain/Business/Development/Web/Website/personal-website/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/projects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src/app/projects" />
+      <recent name="$PROJECT_DIR$/src/app/support" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85621c8b-852e-4170-b69e-fb4369ec62cb" name="Changes" comment="" />
+      <created>1700308588943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700308588943</updated>
+      <workItem from="1700380494871" duration="5155000" />
+      <workItem from="1700401659863" duration="2414000" />
+      <workItem from="1700463176463" duration="34000" />
+      <workItem from="1700469499274" duration="43000" />
+      <workItem from="1700479516864" duration="602000" />
+      <workItem from="1700502995884" duration="263000" />
+      <workItem from="1700569565754" duration="2031000" />
+      <workItem from="1700572128398" duration="3912000" />
+      <workItem from="1700589473644" duration="28000" />
+      <workItem from="1700589511295" duration="1770000" />
+      <workItem from="1700593542623" duration="2226000" />
+      <workItem from="1700644071046" duration="2747000" />
+      <workItem from="1700652056113" duration="28000" />
+      <workItem from="1700657637659" duration="402000" />
+      <workItem from="1700658405939" duration="26000" />
+      <workItem from="1700750933667" duration="3000" />
+      <workItem from="1700750971682" duration="605000" />
+      <workItem from="1700760783363" duration="89000" />
+      <workItem from="1700760875274" duration="1755000" />
+      <workItem from="1700809056608" duration="1296000" />
+      <workItem from="1700993599868" duration="13818000" />
+      <workItem from="1701015459366" duration="81000" />
+      <workItem from="1701078742003" duration="61000" />
+      <workItem from="1701089402622" duration="1499000" />
+      <workItem from="1701170899295" duration="391000" />
+      <workItem from="1701171301581" duration="5391000" />
+      <workItem from="1701248633668" duration="229000" />
+      <workItem from="1701256322744" duration="280000" />
+      <workItem from="1701285644919" duration="3552000" />
+      <workItem from="1701290207020" duration="77000" />
+      <workItem from="1701327504785" duration="1921000" />
+      <workItem from="1701333482296" duration="51000" />
+      <workItem from="1701365506775" duration="219000" />
+      <workItem from="1702290382387" duration="303000" />
+      <workItem from="1702407875657" duration="840000" />
+      <workItem from="1702408762769" duration="440000" />
+      <workItem from="1702409345641" duration="400000" />
+      <workItem from="1702459253078" duration="51000" />
+      <workItem from="1702499534668" duration="846000" />
+      <workItem from="1702543730596" duration="34000" />
+      <workItem from="1702565515427" duration="815000" />
+      <workItem from="1702571435889" duration="372000" />
+      <workItem from="1702571827686" duration="173000" />
+      <workItem from="1702572232962" duration="2823000" />
+      <workItem from="1702644782480" duration="700000" />
+      <workItem from="1702719445177" duration="73000" />
+      <workItem from="1703070373794" duration="14000" />
+      <workItem from="1703164557139" duration="16000" />
+      <workItem from="1703164580960" duration="335000" />
+      <workItem from="1703164936357" duration="70000" />
+      <workItem from="1703179264283" duration="602000" />
+      <workItem from="1703320120483" duration="2010000" />
+      <workItem from="1703665669846" duration="5657000" />
+      <workItem from="1703839962260" duration="5728000" />
+      <workItem from="1703918337254" duration="733000" />
+      <workItem from="1704110163696" duration="838000" />
+      <workItem from="1704128258844" duration="2771000" />
+      <workItem from="1704178580803" duration="1217000" />
+      <workItem from="1704560056204" duration="612000" />
+      <workItem from="1704648833222" duration="179000" />
+      <workItem from="1705247568785" duration="1000" />
+      <workItem from="1705247574960" duration="34000" />
+      <workItem from="1705247613614" duration="620000" />
+      <workItem from="1705316878942" duration="297000" />
+      <workItem from="1705484770831" duration="329000" />
+      <workItem from="1705849658822" duration="84000" />
+      <workItem from="1705849755054" duration="1819000" />
+      <workItem from="1706450359050" duration="9000" />
+      <workItem from="1706450376141" duration="35000" />
+      <workItem from="1706450416090" duration="1084000" />
+      <workItem from="1707481489542" duration="1790000" />
+      <workItem from="1707644303005" duration="7916000" />
+      <workItem from="1707729804407" duration="2970000" />
+      <workItem from="1707815261211" duration="2437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
