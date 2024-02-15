@@ -151,7 +151,10 @@ function HomeDesktop() {
                 </Link>
               </li>
               <li>
-                <Link href="" target="_blank">
+                <Link
+                  href="https://www.patreon.com/julesdevelopment?utm_campaign=creatorshare_creator"
+                  target="_blank"
+                >
                   Patreon
                 </Link>
               </li>
