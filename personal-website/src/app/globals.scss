@@ -21,13 +21,6 @@ body {
   background-color: var(--body-light);
 }
 
-@media(prefers-color-scheme: dark) {
-  body {
-    color: var(--foreground-rgb-black);
-    background-color: var(--body-dark);
-  }
-}
-
 h1 {
   font-size: 32px;
   text-align: left;
