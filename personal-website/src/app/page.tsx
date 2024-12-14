@@ -49,8 +49,8 @@ function HomeMobile() {
                   LinkedIn
                 </Link>
               </li>
-              <li>
-                {/* <Link href="https://x.com/Julessh05" target="_blank">
+              {/* <li>
+                <Link href="https://x.com/Julessh05" target="_blank">
                   X
                 </Link>
               </li>
@@ -58,8 +58,8 @@ function HomeMobile() {
                 <Link href="https://instagram.com/Julessh05" target="_blank">
                   Instagram
                 </Link>
-              </li>
-              <li> */}
+              </li> */}
+              <li>
                 <Link
                   href="https://www.patreon.com/julesdevelopment?utm_campaign=creatorshare_creator"
                   target="_blank"
@@ -140,7 +140,7 @@ function HomeDesktop() {
                   LinkedIn
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="https://x.com/Julessh05" target="_blank">
                   X
                 </Link>
@@ -149,7 +149,7 @@ function HomeDesktop() {
                 <Link href="https://instagram.com/Julessh05" target="_blank">
                   Instagram
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="https://www.patreon.com/julesdevelopment?utm_campaign=creatorshare_creator"
