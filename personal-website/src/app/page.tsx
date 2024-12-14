@@ -50,7 +50,7 @@ function HomeMobile() {
                 </Link>
               </li>
               <li>
-                <Link href="https://x.com/Julessh05" target="_blank">
+                {/* <Link href="https://x.com/Julessh05" target="_blank">
                   X
                 </Link>
               </li>
@@ -59,7 +59,7 @@ function HomeMobile() {
                   Instagram
                 </Link>
               </li>
-              <li>
+              <li> */}
                 <Link
                   href="https://www.patreon.com/julesdevelopment?utm_campaign=creatorshare_creator"
                   target="_blank"
