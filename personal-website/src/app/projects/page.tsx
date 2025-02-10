@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import getProjects from "../data/mapping";
 import Project from "../objects/project";
 import ProjectType from "../objects/project_type";
@@ -49,7 +50,9 @@ export default function Projects() {
         {projects
           .filter((p) => p.projectType == type.identifier)
           .map((project) => (
-            <li key={project.identifier}>{project.name}</li>
+            <li key={project.identifier}>
+              <Link href={`/projects/${project.name}`}>{project.name}</Link>
+            </li>
           ))}
       </ul>
     </main>
