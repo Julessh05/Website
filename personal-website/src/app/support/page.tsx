@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+    title: 'Julian Schumacher - Support',
+    description: 'Get support for my projects and more',
+}
+
 export default function Support() {
     return (
         <main>

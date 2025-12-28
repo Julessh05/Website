@@ -11,7 +11,6 @@ export default async function ProjectPage({
   const ar: any[] = getProjects();
   const projects: Project[] = ar[0];
   const project = projects.find((p) => p.identifier.toLowerCase() === slug.toLowerCase());
-  console.log(project);
   if (!project) {
     return (
       <main>

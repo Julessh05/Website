@@ -38,6 +38,7 @@ a {
 }
 
 main {
+  padding-top: 6rem;
   text-align: left;
   margin: auto;
   max-width: 800px;

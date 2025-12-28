@@ -23,7 +23,6 @@ export default function getProjects() {
 
 function idToProject(projectID, type) {
   const object = projectsData.projects.types[type].content[projectID];
-  console.log(object);
   return new Project(
     type,
     projectID,
