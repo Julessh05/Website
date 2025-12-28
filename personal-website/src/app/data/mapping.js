@@ -23,15 +23,16 @@ export default function getProjects() {
 
 function idToProject(projectID, type) {
   const object = projectsData.projects.types[type].content[projectID];
+  console.log(object);
   return new Project(
     type,
     projectID,
-    object.typeImplemented,
-    object.typeGoal,
-    object.platformsReady,
-    object.platformsGoal,
-    object.language,
-    object.framework,
+    object["type-implemented"] ?? [],
+    object["type-goal"] ?? [],
+    object["platforms-ready"] ?? [],
+    object["platforms-goal"] ?? [],
+    object.languages ?? [],
+    object.frameworks ?? [],
     object.name,
     object.description,
     object.features,
@@ -43,7 +44,7 @@ function idToProject(projectID, type) {
       object.connection.pubdev,
       object.connection.youtrack
     ),
-    object.firstVersionReleased,
-    object.activeSupport
+    object["first-version-released"],
+    object["active-support"]
   );
 }

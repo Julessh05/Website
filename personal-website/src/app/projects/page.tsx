@@ -28,9 +28,8 @@ export default function Projects() {
           {type.name}
         </button>
         <div
-          className={`${
-            dropdownShown ? "inline-block" : "hidden"
-          } absolute bg-black`}
+          className={`${dropdownShown ? "inline-block" : "hidden"
+            } absolute bg-black`}
         >
           {types.map((type) => (
             <button
@@ -51,7 +50,7 @@ export default function Projects() {
           .filter((p) => p.projectType == type.identifier)
           .map((project) => (
             <li key={project.identifier}>
-              <Link href={`/projects/${project.name}`}>{project.name}</Link>
+              <Link href={`/projects/${project.identifier}`}>{project.name}</Link>
             </li>
           ))}
       </ul>

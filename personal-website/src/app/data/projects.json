@@ -19,8 +19,12 @@
               "android",
               "ios"
             ],
-            "language": "dart",
-            "framework": "flutter",
+            "languages": [
+              "dart"
+            ],
+            "frameworks": [
+              "flutter"
+            ],
             "name": "2Do",
             "description": "This App helps you organize your day",
             "features": [
@@ -31,7 +35,7 @@
               "Add Notes using two different input modes (notes and brainstorm)"
             ],
             "connection": {
-              "repo": "https://github.com/Julessh05/2Do",
+              "repo": "https://github.com/juliandevelops/2Do",
               "playstore": "https://play.google.com/store/apps/details?id=com.jules.todo",
               "appstore": "https://apps.apple.com/de/app/2do-organize-your-tasks/id6450028797",
               "fdroid": null,
@@ -60,8 +64,12 @@
               "windows",
               "linux"
             ],
-            "language": "dart",
-            "framework": "flutter",
+            "languages": [
+              "dart"
+            ],
+            "frameworks": [
+              "flutter"
+            ],
             "name": "Reading Diary",
             "description": "Write down your thoughts about what you read",
             "features": [
@@ -74,7 +82,7 @@
               "Link websites to books or entries"
             ],
             "connection": {
-              "repo": "https://github.com/Julessh05/Reading-Diary",
+              "repo": "https://github.com/juliandevelops/Reading-Diary",
               "playstore": "https://play.google.com/store/apps/details?id=com.jules.reading_diary",
               "appstore": "https://apps.apple.com/de/app/reading-diary-book-journal/id6450028928",
               "fdroid": null,
@@ -99,8 +107,12 @@
               "ios",
               "macos"
             ],
-            "language": "Swift",
-            "framework": "SwiftUI",
+            "languages": [
+              "Swift"
+            ],
+            "frameworks": [
+              "SwiftUI"
+            ],
             "name": "Financer",
             "description": "Keep track of your finances",
             "features": [
@@ -109,7 +121,7 @@
               "Always be up-to-date with your bank balance"
             ],
             "connection": {
-              "repo": "https://github.com/Julessh05/Financer",
+              "repo": "https://github.com/juliandevelops/Financer",
               "playstore": null,
               "appstore": "https://apps.apple.com/de/app/financer-financial-overview/id6447355054",
               "fdroid": null,
@@ -142,8 +154,12 @@
               "windows",
               "linux"
             ],
-            "language": "dart",
-            "framework": "flutter",
+            "languages": [
+              "dart"
+            ],
+            "frameworks": [
+              "flutter"
+            ],
             "name": "I am Rich",
             "description": "Show of how rich you are",
             "features": [
@@ -152,7 +168,7 @@
               "Support my other projects"
             ],
             "connection": {
-              "repo": "https://github.com/Julessh05/I-am-rich",
+              "repo": "https://github.com/juliandevelops/I-am-rich",
               "playstore": null,
               "appstore": null,
               "fdroid": null,
@@ -173,8 +189,12 @@
               "ios",
               "macos"
             ],
-            "language": "Swift",
-            "framework": "SwiftUI",
+            "languages": [
+              "Swift"
+            ],
+            "frameworks": [
+              "SwiftUI"
+            ],
             "name": "Protecto Pass",
             "description": "The one and only simple, secure and intuitive Password Safe to safely store your Passwords, Keys, and confidential data and documents",
             "features": [
@@ -203,15 +223,13 @@
         "name": "Plugins",
         "content": {
           "native_encryption": {
-            "type-ready": [
-            ],
+            "type-ready": [],
             "type-goal": [
               "desktop",
               "mobile",
               "web"
             ],
-            "platforms-ready": [
-            ],
+            "platforms-ready": [],
             "platforms-goal": [
               "ios",
               "android",
@@ -219,12 +237,17 @@
               "windows",
               "linux"
             ],
-            "language": "dart, kotlin, swift",
-            "framework": "flutter",
+            "languages": [
+              "dart",
+              "kotlin",
+              "swift"
+            ],
+            "frameworks": [
+              "flutter"
+            ],
             "name": "Native Encryption",
             "description": "Use native system encryption in your Flutter App",
-            "features": [
-            ],
+            "features": [],
             "connection": {
               "repo": "https://github.com/jules-media/native_encryption",
               "playstore": null,
@@ -266,14 +289,16 @@
               "windows",
               "linux"
             ],
-            "language": "dart",
-            "framework": null,
+            "languages": [
+              "dart"
+            ],
+            "frameworks": [],
             "name": "String Translate",
             "description": "Translate Strings",
             "features": [
-              "Translate strings into different languages",
+              "Translate strings into different languagess",
               "Use Standard Translations",
-              "Implement seamlessly in Flutter Framework",
+              "Implement seamlessly in Flutter frameworks",
               "Use Locale's, initial Locale and change Locale Functions"
             ],
             "connection": {
@@ -312,8 +337,12 @@
               "windows",
               "linux"
             ],
-            "language": "dart",
-            "framework": "flutter",
+            "languages": [
+              "dart"
+            ],
+            "frameworks": [
+              "flutter"
+            ],
             "name": "Modern Themes",
             "description": "Use modern Themes and Theme Components in you Apps",
             "features": [
@@ -350,8 +379,10 @@
             "platforms-goal": [
               "macos"
             ],
-            "language": "swift",
-            "framework": null,
+            "languages": [
+              "swift"
+            ],
+            "frameworks": [],
             "name": "Craid",
             "description": "macOS command line tool to help me on my machine",
             "features": [

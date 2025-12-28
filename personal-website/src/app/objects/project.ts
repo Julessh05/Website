@@ -14,9 +14,9 @@ export default class Project {
 
     platformsGoal: string[]
 
-    language: string
+    languages: string[]
 
-    framework: string
+    frameworks: string[]
 
     name: string
 
@@ -37,8 +37,8 @@ export default class Project {
         typeGoal: string[],
         platformsReady: string[],
         platformsGoal: string[],
-        language: string,
-        framework: string,
+        languages: string[],
+        frameworks: string[],
         name: string,
         description: string,
         features: string[],
@@ -52,8 +52,8 @@ export default class Project {
         this.typeGoal = typeGoal;
         this.platformsReady = platformsReady;
         this.platformsGoal = platformsGoal;
-        this.language = language;
-        this.framework = framework;
+        this.languages = languages;
+        this.frameworks = frameworks;
         this.name = name;
         this.description = description;
         this.features = features;
