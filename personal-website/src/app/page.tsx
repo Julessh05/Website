@@ -36,16 +36,16 @@ export default function Home() {
                     LinkedIn
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href="https://x.com/Julessh05" target="_blank">
+                /<li>
+                  < Link href="https://x.com/julian_develops" target="_blank">
                     X
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://instagram.com/Julessh05" target="_blank">
+                  <Link href="https://instagram.com/juliandevelops" target="_blank">
                     Instagram
                   </Link>
-                </li> */}
+                </li>
                 <li>
                   <Link
                     href="https://www.patreon.com/juliandevelops"
@@ -68,7 +68,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                <Link
+                  <Link
                     href="https://juliandevelops.com"
                     target="_blank"
                   >
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </div >
+    </main >
   );
 }

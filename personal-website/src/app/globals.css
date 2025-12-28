@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
 :root {
-  // Color Ideas: https://www.picmonkey.com/blog/website-color-schemes#sophisticated-website-color-schemes
-  // https://www.awwwards.com/sites/moooi-digital-flagship-store
   --foreground-rgb-white: rgb(255, 255, 255);
   --foreground-rgb-black: rgb(50, 50, 50);
   --background-rgb-light: rgb(211, 211, 211);
