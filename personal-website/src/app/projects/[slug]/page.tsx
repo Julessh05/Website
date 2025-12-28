@@ -29,11 +29,15 @@ export default async function ProjectPage({
             <ul>{project.activeSupport ? <p>Active</p> : <p>Inactive</p>}</ul>
             <ul>{project.firstVersionReleased ? <p>Published</p> : <p>Still in Development</p>}</ul>
             <h3>Ready on</h3>
-            <ul>
-              {project.typeImplemented.map((type, index) => (
-                <li key={index}>&#x2022; {type}</li>
-              ))}
-            </ul>
+            {project.typeImplemented.length == 0 ?
+              <p>No types ready yet</p>
+              :
+              <ul>
+                {project.typeImplemented.map((type, index) => (
+                  <li key={index}>&#x2022; {type}</li>
+                ))}
+              </ul>
+            }
           </li>
           <li>
             <h3>Intended on</h3>
@@ -45,11 +49,15 @@ export default async function ProjectPage({
           </li>
           <li>
             <h3>Platforms ready</h3>
-            <ul>
-              {project.platformsReady.map((platform, index) => (
-                <li key={index}>&#x2022; {platform}</li>
-              ))}
-            </ul>
+            {project.platformsReady.length == 0 ?
+              <p>No platforms ready yet</p>
+              :
+              <ul>
+                {project.platformsReady.map((platform, index) => (
+                  <li key={index}>&#x2022; {platform}</li>
+                ))}
+              </ul>
+            }
           </li>
           <li>
             <h3>Intended platforms</h3>

@@ -6,24 +6,24 @@
         "content": {
           "2Do": {
             "type-implemented": [
-              "mobile"
+              "Mobile"
             ],
             "type-goal": [
-              "mobile"
+              "Mobile"
             ],
             "platforms-ready": [
-              "android",
-              "ios"
+              "Android",
+              "iOS"
             ],
             "platforms-goal": [
-              "android",
-              "ios"
+              "Android",
+              "iOS"
             ],
             "languages": [
-              "dart"
+              "Dart"
             ],
             "frameworks": [
-              "flutter"
+              "Flutter"
             ],
             "name": "2Do",
             "description": "This App helps you organize your day",
@@ -47,28 +47,28 @@
           },
           "reading_diary": {
             "type-implemented": [
-              "mobile"
+              "Mobile"
             ],
             "type-goal": [
-              "mobile",
-              "desktop"
+              "Mobile",
+              "Desktop"
             ],
             "platforms-ready": [
-              "android",
-              "ios"
+              "Android",
+              "iOS"
             ],
             "platforms-goal": [
-              "android",
-              "ios",
-              "macos",
-              "windows",
-              "linux"
+              "Android",
+              "iOS",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "languages": [
-              "dart"
+              "Dart"
             ],
             "frameworks": [
-              "flutter"
+              "Flutter"
             ],
             "name": "Reading Diary",
             "description": "Write down your thoughts about what you read",
@@ -94,18 +94,18 @@
           },
           "financer": {
             "type-ready": [
-              "mobile"
+              "Mobile"
             ],
             "type-goal": [
-              "mobile",
-              "desktop"
+              "Mobile",
+              "Desktop"
             ],
             "platforms-ready": [
-              "ios"
+              "iOS"
             ],
             "platforms-goal": [
-              "ios",
-              "macos"
+              "iOS",
+              "macOS"
             ],
             "languages": [
               "Swift"
@@ -133,32 +133,32 @@
           },
           "i-am-rich": {
             "type-ready": [
-              "mobile",
-              "desktop"
+              "Mobile",
+              "Desktop"
             ],
             "type-goal": [
-              "mobile",
-              "desktop"
+              "Mobile",
+              "Desktop"
             ],
             "platforms-ready": [
-              "ios",
-              "android",
-              "macos",
-              "windows",
-              "linux"
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "platforms-goal": [
-              "ios",
-              "android",
-              "macos",
-              "windows",
-              "linux"
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "languages": [
-              "dart"
+              "Dart"
             ],
             "frameworks": [
-              "flutter"
+              "Flutter"
             ],
             "name": "I am Rich",
             "description": "Show of how rich you are",
@@ -181,13 +181,13 @@
           "protecto-pass": {
             "type-ready": [],
             "type-goal": [
-              "mobile",
-              "desktop"
+              "Mobile",
+              "Desktop"
             ],
             "platforms-ready": [],
             "platforms-goal": [
-              "ios",
-              "macos"
+              "iOS",
+              "macOS"
             ],
             "languages": [
               "Swift"
@@ -225,25 +225,25 @@
           "native_encryption": {
             "type-ready": [],
             "type-goal": [
-              "desktop",
-              "mobile",
-              "web"
+              "Desktop",
+              "Mobile",
+              "Web"
             ],
             "platforms-ready": [],
             "platforms-goal": [
-              "ios",
-              "android",
-              "macos",
-              "windows",
-              "linux"
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "languages": [
-              "dart",
-              "kotlin",
-              "swift"
+              "Dart",
+              "Kotlin",
+              "Swift"
             ],
             "frameworks": [
-              "flutter"
+              "Flutter"
             ],
             "name": "Native Encryption",
             "description": "Use native system encryption in your Flutter App",
@@ -266,31 +266,31 @@
         "content": {
           "string_translate": {
             "type-ready": [
-              "desktop",
-              "mobile",
-              "web"
+              "Desktop",
+              "Mobile",
+              "Web"
             ],
             "type-goal": [
-              "desktop",
-              "mobile",
-              "web"
+              "Desktop",
+              "Mobile",
+              "Web"
             ],
             "platforms-ready": [
-              "ios",
-              "android",
-              "macos",
-              "windows",
-              "linux"
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "platforms-goal": [
-              "ios",
-              "android",
-              "macos",
-              "windows",
-              "linux"
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "languages": [
-              "dart"
+              "Dart"
             ],
             "frameworks": [],
             "name": "String Translate",
@@ -314,34 +314,34 @@
           },
           "modern_themes": {
             "type-ready": [
-              "desktop",
-              "mobile",
-              "web"
+              "Desktop",
+              "Mobile",
+              "Web"
             ],
             "type-goal": [
-              "desktop",
-              "mobile",
-              "web"
+              "Desktop",
+              "Mobile",
+              "Web"
             ],
             "platforms-ready": [
-              "ios",
-              "android",
-              "macos",
-              "windows",
-              "linux"
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "platforms-goal": [
-              "ios",
-              "android",
-              "macos",
-              "windows",
-              "linux"
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
             ],
             "languages": [
-              "dart"
+              "Dart"
             ],
             "frameworks": [
-              "flutter"
+              "Flutter"
             ],
             "name": "Modern Themes",
             "description": "Use modern Themes and Theme Components in you Apps",
@@ -368,19 +368,19 @@
         "content": {
           "craid": {
             "type-ready": [
-              "desktop"
+              "Desktop"
             ],
             "type-goal": [
-              "desktop"
+              "Desktop"
             ],
             "platforms-ready": [
-              "macos"
+              "macOS"
             ],
             "platforms-goal": [
-              "macos"
+              "macOS"
             ],
             "languages": [
-              "swift"
+              "Swift"
             ],
             "frameworks": [],
             "name": "Craid",
