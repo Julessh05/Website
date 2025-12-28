@@ -11,8 +11,8 @@ export default function getProjects() {
     listOfTypes.push(
       new ProjectType(
         projectsType,
-        projectsData.projects.types[projectsType].name,
-      ),
+        projectsData.projects.types[projectsType].name
+      )
     );
     for (const project in projectsData.projects.types[projectsType].content) {
       list.push(idToProject(project, projectsType));
@@ -41,9 +41,9 @@ function idToProject(projectID, type) {
       object.connection.appstore,
       object.connection.fdroid,
       object.connection.pubdev,
-      object.connection.youtrack,
+      object.connection.youtrack
     ),
     object.firstVersionReleased,
-    object.activeSupport,
+    object.activeSupport
   );
 }
