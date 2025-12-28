@@ -36,7 +36,7 @@ export default function Home() {
                     LinkedIn
                   </Link>
                 </li>
-                /<li>
+                <li>
                   < Link href="https://x.com/julian_develops" target="_blank">
                     X
                   </Link>
