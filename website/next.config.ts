@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   sassOptions: {
     includePaths: [join(__dirname, 'styles')]
-},
+  },
+  experimental: {
+    scrollRestoration: true,
+  }
 };
 
 export default nextConfig;

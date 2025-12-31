@@ -20,6 +20,7 @@ body {
   margin: 0 0 3rem;
   color: var(--color-foreground);
   background-color: var(--color-background);
+  overscroll-behavior: contain;
 }
 
 nav {
