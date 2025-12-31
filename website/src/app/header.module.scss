@@ -1,0 +1,31 @@
+.nav {
+    width: 90vw;
+    text-align: center;
+    opacity: .9;
+    text-decoration: none;
+    display: inline;
+    z-index: 10;
+    position: fixed;
+    padding: 1rem;
+    margin: .5rem 5vw;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    padding: 2vw;
+    text-decoration: none;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            color: var(--accent-color);
+        }
+
+        &:active {
+            @extend :hover;
+        }
+    }
+}
