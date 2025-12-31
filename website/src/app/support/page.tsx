@@ -3,6 +3,34 @@ import Link from "next/link";
 export const metadata = {
     title: 'Julian Schumacher - Support',
     description: 'Get support for my projects and more',
+    keywords: [
+        "Developer Support",
+        "Programming Support",
+        "Support",
+        "Personal Support",
+        "Julian Schumacher Support",
+        "Support",
+        "App Support",
+        "Service Support",
+    ],
+    formatDetection: {
+        email: true,
+        address: true,
+        telephone: true,
+    },
+    robots: {
+        index: true,
+        follow: true,
+        nocache: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
 }
 
 export default function Support() {
