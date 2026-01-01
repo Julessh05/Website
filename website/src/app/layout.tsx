@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Source_Sans_3 } from "next/font/google";
 import "./globals.scss";
 import React from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "./header";
 import Footer from "./footer";
 
-const _ = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+const source_sans_3 = Source_Sans_3({
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Julian Schumacher",
@@ -85,7 +88,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={source_sans_3.className}>
       <body>
         <Header />
         {children}

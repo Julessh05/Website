@@ -48,10 +48,10 @@ export default function Privacy() {
             </p>
             <ul>
                 <li>
-                    <Link href="https://vercel.com/legal/privacy-policy">Hoster</Link>
+                    <Link href="https://vercel.com/legal/privacy-policy" target="_blank">Hoster</Link>
                 </li>
                 <li>
-                    <Link href="https://www.ionos.de/terms-gtc/datenschutzerklaerung/">Provider</Link>
+                    <Link href="https://www.ionos.de/terms-gtc/datenschutzerklaerung/" target="_blank">Provider</Link>
                 </li>
             </ul>
             <h1> Apps </h1>
@@ -65,13 +65,13 @@ export default function Privacy() {
             </p>
             <h2> Flutter Specific </h2>
             <p>
-                For some of my Apps i use <Link href="https://dart.dev">Googles Language Dart</Link> and the corresponding <Link
-                    href="https://flutter.dev">Framework Flutter</Link>.
+                For some of my Apps i use <Link href="https://dart.dev" target="_blank">Googles Language Dart</Link> and the corresponding <Link
+                    href="https://flutter.dev" target="_blank">Framework Flutter</Link>.
                 You can find more about these languages on the linked Sites.
                 Because Flutter and Dart are based on the community and packages / plugins
                 developed by the community, not every code, that is used in my App
                 is written by me.
-                All the Packages can be found <Link href="https://pub.dev">here</Link>.
+                All the Packages can be found <Link href="https://pub.dev" target="_blank">here</Link>.
                 Google check&rsquo;s the Packages, but i cannot garantee that these Packages are
                 100% secure and bug-free.
                 Although i will do my best to remove packages that aren&rsquo;t necessary, suspicious or
@@ -79,7 +79,7 @@ export default function Privacy() {
                 To see more information about the packages used in an individual App,
                 please refer to the Github repository of this App, mostly linked in the Store or
                 the App itself.
-                If you do not find the link, you can <Link href="https://github.com/Julessh05?tab=repositories">search
+                If you do not find the link, you can <Link href="https://github.com/Julessh05?tab=repositories" target="_blank">search
                     here</Link>.
             </p>
             <h2> Swift Specific </h2>
@@ -90,7 +90,7 @@ export default function Privacy() {
                 These Apps may store their Data encrypted and may sync it to your personal iCloud.
                 These synced Data are not visible or accessible for anyone but yourself.
                 To read more about storing and security, please refer to the projects own
-                page, all Projects can be found <Link href="/">here</Link>.
+                page, all Projects can be found <Link href="/work/projects">here</Link>.
             </p>
         </main>
 

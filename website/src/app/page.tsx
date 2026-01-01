@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <div>
-        <div className={styles.introduction}>
+        <div className={styles.introduction} style={{ borderRadius: "25px" }}>
           <Image
             src="/me.jpg"
             alt="A Portrait of myself"

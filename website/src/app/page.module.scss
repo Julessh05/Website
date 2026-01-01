@@ -2,6 +2,25 @@
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 5rem;
+    gap: 3rem;
     margin-bottom: 2rem;
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        border-radius: 25px;
+        /* Safari desktop workaround */
+        -webkit-border-radius: 25px;
+    }
+
+    @media (min-width: 640px) {
+        gap: 4rem;
+    }
+
+    @media (min-width: 768px) {
+        gap: 5rem;
+    }
 }

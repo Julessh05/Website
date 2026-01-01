@@ -1,11 +1,18 @@
 .socialLink {
     display: flex;
+    padding: 0.2rem 0rem;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
 
     img {
-        margin-right: 0.3rem
+        margin-right: 0.5rem;
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
     }
 
     a {
-        margin: 0rem 0.2rem
+        margin: 0rem .3rem
     }
 }

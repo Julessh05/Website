@@ -13,7 +13,8 @@ export const metadata = {
         "Julian Schumacher Contact",
         "Contact",
         "Get in Touch",
-        "Contact Developer"
+        "Contact Developer",
+        "Developer Socials"
     ],
     formatDetection: {
         email: true,
@@ -40,7 +41,12 @@ export default function Contact() {
         <main>
             {/* General */}
             <h1>Contact</h1>
-            <p>In case of questions or requests, feel free to reach out:</p>
+            <p>
+                In case of any questions, requests or other converns, please don&rsquo;t hesitate to reach out.
+                You can pick you&rsquo;r prefered method of contact below.
+                Most of the time, a simple email will get you the fastest response.
+                Please include as many details as possible regarding your request for me to help you best.
+            </p>
 
             {/* Email contact */}
             <h2>Preferred</h2>
@@ -55,7 +61,7 @@ export default function Contact() {
                 <Image
                     src="/socials/github_icon.svg"
                     alt="GitHub Icon"
-                    width={12.5}
+                    width={25}
                     height={12.5}
                 />
                 GitHub:
@@ -68,8 +74,8 @@ export default function Contact() {
                 <Image
                     src="/socials/instagram_icon.svg"
                     alt="Instagram Icon"
-                    width={12.5}
-                    height={12.5}
+                    width={20}
+                    height={20}
                 />
                 Instagram:
                 <Link href="https://www.instagram.com/juliandevelops/" target="_blank">@juliandevelops</Link>
@@ -78,18 +84,18 @@ export default function Contact() {
                 <Image
                     src="/socials/x_icon.svg"
                     alt="X Icon"
-                    width={12.5}
-                    height={12.5}
+                    width={20}
+                    height={20}
                 />
-                X (formerly Twitter):
+                (formerly Twitter):
                 <Link href="https://twitter.com/julian_develops" target="_blank">@julian_develops</Link>
             </p>
             <p className={styles.socialLink}>
                 <Image
                     src="/socials/linkedin_icon.png"
                     alt="LinkedIn Icon"
-                    height={12.5}
-                    width={25}
+                    height={20}
+                    width={20}
                 />
                 LinkedIn:
                 <Link href="https://www.linkedin.com/in/julian-schumacher-b6005021a/" target="_blank">Julian Schumacher</Link>
@@ -98,8 +104,8 @@ export default function Contact() {
                 <Image
                     src="/socials/patreon_icon.svg"
                     alt="Patreon Icon"
-                    height={12.5}
-                    width={12.5}
+                    height={20}
+                    width={20}
                 />
                 Patreon: <Link href="https://www.patreon.com/juliandevelops" target="_blank">@juliandevelops</Link></p>
 
@@ -113,10 +119,13 @@ export default function Contact() {
                 <Image
                     src="/projects/v3s_icon.png"
                     alt="V3S Icon"
-                    height={12.5}
-                    width={25}
+                    height={20}
+                    width={20}
+                    style={{ borderRadius: "7.5px" }}
                 />
-                Virtual Safety & Security Systems <Link href="https://v3s.tech" target="_blank">v3s.tech</Link></p>
+                Virtual Safety & Security Systems
+                <Link href="https://v3s.tech" target="_blank">v3s.tech</Link>
+            </p>
             <p>App Store: <Link href="https://apps.apple.com/de/developer/julian-schumacher/id1681063160" target="_blank">Julian Schumacher</Link></p>
             <p>Play Store: <Link href="https://play.google.com/store/apps/developer?id=Julian+Schumacher" target="_blank">Julian Schumacher</Link></p>
         </main >
