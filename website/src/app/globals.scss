@@ -92,11 +92,18 @@ a {
   }
 }
 
+header {
+  min-height: 10vh;
+}
+
 main {
+  vertical-align: top;
   padding: 6rem 1rem 1rem;
   text-align: left;
   margin: auto;
   max-width: 800px;
+  // Inspiration: https: //stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
+  min-height: 80vh;
 
   @media (min-width: 640px) {
     padding: 6rem 1.5rem 1rem;
@@ -114,6 +121,8 @@ footer {
   color: var(--color-foreground);
   text-align: center;
   padding: 1rem 0.5rem;
+  vertical-align: bottom;
+  min-height: 10vh;
 
   @media (min-width: 640px) {
     padding: 1rem;
