@@ -129,7 +129,7 @@ export default async function ProjectPage({
                         {<ul>
                             {Array.from(project.connection.getActive().entries()).map(([key, value]) => (
                                 <li key={key}>
-                                    <Link href={value}>{key}</Link>
+                                    <Link href={value} target="_blank">{key}</Link>
                                 </li>
                             ))}
                         </ul>

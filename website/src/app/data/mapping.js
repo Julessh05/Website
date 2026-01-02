@@ -39,11 +39,12 @@ function idToProject(projectID, type) {
       object.connection.repo,
       object.connection.playstore,
       object.connection.appstore,
+      object.connection.microsoftstore,
+      object.connection.website,
       object.connection.fdroid,
-      object.connection.pubdev,
-      object.connection.youtrack
+      object.connection.pubdev
     ),
     object["first-version-released"],
-    object["active-support"]
+    object["activeSupport"]
   );
 }

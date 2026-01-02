@@ -1,59 +1,61 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
+import styles from './page.module.scss';
 import getProjects from "../../data/mapping";
 import Project from "../../objects/project";
 import ProjectType from "../../objects/project_type";
-import { useState } from "react";
+
 
 export default function Projects() {
     const ar: unknown[] = getProjects();
     const projects: Project[] = ar[0] as Project[];
     const types: ProjectType[] = ar[1] as ProjectType[];
     const [type, setType] = useState(types[0]);
-    const [dropdownShown, setDropdownShown] = useState(false);
-
-    function dropdownItemSelected(projectType: ProjectType) {
-        setType(projectType);
-        setDropdownShown(false);
-    }
 
     return (
         <main>
-            <div>
-                <button
-                    type="button"
-                    onClick={() => setDropdownShown(!dropdownShown)}
-                >
-                    {type.name}
-                </button>
-                <div
-                    className={`${dropdownShown ? "inline-block" : "hidden"
-                        } absolute bg-black`}
-                >
-                    {types.map((type) => (
-                        <button
-                            className="block p-1"
-                            key={type.identifier}
-                            type="button"
-                            onClick={() => dropdownItemSelected(type)}
-                        >
-                            {type.name}
-                        </button>
+            <h1>Projects</h1>
+            {/* Type selector */}
+            <h2>Type</h2>
+            <div className={styles.typeSelector}>
+                <ul>
+                    {types.map((t) => (
+                        <li key={t.identifier}>
+                            <button
+                                onClick={() => setType(t)}
+                                className={t.identifier == type.identifier ? styles.active : ''}
+                            >
+                                {t.name}
+                            </button>
+                        </li>
                     ))}
-                </div>
-                {/* Divider */}
-                <div style={{ height: "10px" }}></div>
+                </ul>
             </div>
+            {/* Projects */}
+            <div style={{ height: "50px" }}></div>
+            <h2>Projects</h2>
             <ul>
                 {projects
                     .filter((p) => p.projectType == type.identifier)
                     .map((project) => (
-                        <li key={project.identifier}>
-                            <Link href={`projects/${project.identifier}`}>{project.name}</Link>
-                        </li>
+                        <div key={project.identifier} className={styles.linkContainer}>
+                            <Link href={`projects/${project.identifier}`} className={styles.link}>
+                                <h4
+                                    className={styles.linkContent}
+                                >
+                                    {project.name}
+                                </h4>
+                                <p
+                                    className={styles.linkContent}
+                                >
+                                    {project.description}
+                                </p>
+                            </Link>
+                        </div>
                     ))}
             </ul>
-        </main>
+        </main >
     );
 }

@@ -38,9 +38,10 @@
               "repo": "https://github.com/juliandevelops/2Do",
               "playstore": "https://play.google.com/store/apps/details?id=com.jules.todo",
               "appstore": "https://apps.apple.com/de/app/2do-organize-your-tasks/id6450028797",
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/2do/",
               "fdroid": null,
-              "pubdev": null,
-              "youtrack": null
+              "pubdev": null
             },
             "first-version-released": true,
             "activeSupport": false
@@ -85,9 +86,10 @@
               "repo": "https://github.com/juliandevelops/Reading-Diary",
               "playstore": "https://play.google.com/store/apps/details?id=com.jules.reading_diary",
               "appstore": "https://apps.apple.com/de/app/reading-diary-book-journal/id6450028928",
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/reading_diary/",
               "fdroid": null,
-              "pubdev": null,
-              "youtrack": null
+              "pubdev": null
             },
             "first-version-released": true,
             "activeSupport": false
@@ -124,9 +126,10 @@
               "repo": "https://github.com/juliandevelops/Financer",
               "playstore": null,
               "appstore": "https://apps.apple.com/de/app/financer-financial-overview/id6447355054",
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/financer/",
               "fdroid": null,
-              "pubdev": null,
-              "youtrack": null
+              "pubdev": null
             },
             "first-version-released": true,
             "activeSupport": false
@@ -171,9 +174,10 @@
               "repo": "https://github.com/juliandevelops/I-am-rich",
               "playstore": null,
               "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/i_am_rich/",
               "fdroid": null,
-              "pubdev": null,
-              "youtrack": null
+              "pubdev": null
             },
             "first-version-released": true,
             "activeSupport": false
@@ -210,9 +214,10 @@
               "repo": "https://github.com/V3Sofficial/Protecto-Pass",
               "playstore": null,
               "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/protecto_pass/",
               "fdroid": null,
-              "pubdev": null,
-              "youtrack": null
+              "pubdev": null
             },
             "first-version-released": false,
             "activeSupport": true
@@ -252,9 +257,10 @@
               "repo": "https://github.com/jules-media/native_encryption",
               "playstore": null,
               "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/native_encryption/",
               "fdroid": null,
-              "pubdev": "https://pub.dev/packages/native_encryption",
-              "youtrack": null
+              "pubdev": "https://pub.dev/packages/native_encryption"
             },
             "first-version-released": true,
             "activeSupport": false
@@ -305,9 +311,10 @@
               "repo": "https://github.com/jules-media/string_translate",
               "playstore": null,
               "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/string_translate/",
               "fdroid": null,
-              "pubdev": "https://pub.dev/packages/string_translate",
-              "youtrack": null
+              "pubdev": "https://pub.dev/packages/string_translate"
             },
             "first-version-released": true,
             "activeSupport": true
@@ -354,9 +361,10 @@
               "repo": "https://github.com/jules-media/modern_themes",
               "playstore": null,
               "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/modern_themes/",
               "fdroid": null,
-              "pubdev": "https://pub.dev/packages/modern_themes",
-              "youtrack": null
+              "pubdev": "https://pub.dev/packages/modern_themes"
             },
             "first-version-released": true,
             "activeSupport": true
@@ -391,15 +399,61 @@
               "Use different commands"
             ],
             "connection": {
-              "repo": "https://github.com/Julessh05/Craid",
+              "repo": "https://github.com/juliandevelops/Craid",
               "playstore": null,
               "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/craid/",
               "fdroid": null,
-              "pubdev": null,
-              "youtrack": null
+              "pubdev": null
             },
             "first-version-released": true,
             "activeSupport": false
+          }
+        }
+      },
+      "websites": {
+        "name": "Websites",
+        "content": {
+          "portfolio": {
+            "type-ready": [
+              "Web"
+            ],
+            "type-goal": [
+              "Web"
+            ],
+            "platforms-ready": [
+              "cross-platform"
+            ],
+            "platforms-goal": [
+              "cross-platform"
+            ],
+            "languages": [
+              "Typescript"
+            ],
+            "frameworks": [
+              "Next.js",
+              "Tailwind CSS",
+              "Sass"
+            ],
+            "name": "Portfolio",
+            "description": "Personal portfolio website to showcase my projects and skills",
+            "features": [
+              "Delete moodle directory",
+              "Get Version Info",
+              "Use different commands"
+            ],
+            "connection": {
+              "repo": "https://github.com/juliandevelops/Portfolio",
+              "playstore": null,
+              "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com",
+              "fdroid": null,
+              "pubdev": null
+            },
+            "first-version-released": true,
+            "activeSupport": true
           }
         }
       }
