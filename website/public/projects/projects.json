@@ -128,6 +128,94 @@
             "first-version-released": true,
             "activeSupport": false
           },
+          "the-spy": {
+            "type-ready": [
+              "Mobile"
+            ],
+            "type-goal": [
+              "Mobile",
+              "Desktop"
+            ],
+            "platforms-ready": [
+              "iOS",
+              "Android"
+            ],
+            "platforms-goal": [
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "languages": [
+              "Swift",
+              "Kotlin"
+            ],
+            "frameworks": [
+              "SwiftUI",
+              "Jetpack Compose"
+            ],
+            "name": "The Spy",
+            "description": "Play the spy game",
+            "features": [
+              "Play the spy game with your friends",
+              "Use clever tactics to win the game"
+            ],
+            "connection": {
+              "repo": "https://github.com/juliandevelops/The-Spy",
+              "playstore": "https://play.google.com/store/apps/details?id=dev.jules.thespy",
+              "appstore": "https://apps.apple.com/de/app/der-spion/id6502282465",
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/the_spy/",
+              "fdroid": null,
+              "pubdev": null
+            },
+            "first-version-released": true,
+            "activeSupport": false
+          },
+          "thinkflix": {
+            "type-ready": [
+              "Mobile"
+            ],
+            "type-goal": [
+              "Mobile",
+              "Desktop"
+            ],
+            "platforms-ready": [
+              "iOS"
+            ],
+            "platforms-goal": [
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "languages": [
+              "Swift"
+            ],
+            "frameworks": [
+              "SwiftUI"
+            ],
+            "name": "ThinkFlix",
+            "description": "A simple quiz game with different modes",
+            "features": [
+              "Test your knowledge with different quiz modes",
+              "Challenge your friends in local multiplayer mode",
+              "Get questions based on your language and country specific quiz questions"
+            ],
+            "connection": {
+              "repo": "https://github.com/juliandevelops/ThinkFlix",
+              "playstore": "https://play.google.com/store/apps/details?id=dev.jules.thespy",
+              "appstore": "https://apps.apple.com/de/app/thinkflix/id6739573533",
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/thinkflix/",
+              "fdroid": null,
+              "pubdev": null
+            },
+            "first-version-released": true,
+            "activeSupport": false
+          },
           "reading_diary": {
             "type-implemented": [
               "Mobile"
@@ -460,6 +548,100 @@
               "website": "https://juliandevelops.com/work/projects/color_chooser/",
               "fdroid": null,
               "pubdev": "https://pub.dev/packages/color_chooser"
+            },
+            "first-version-released": true,
+            "activeSupport": true
+          },
+          "bloc_implementation": {
+            "type-ready": [
+              "Desktop",
+              "Web"
+            ],
+            "type-goal": [
+              "Desktop",
+              "Web"
+            ],
+            "platforms-ready": [
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "platforms-goal": [
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "languages": [
+              "Dart"
+            ],
+            "frameworks": [
+              "Flutter"
+            ],
+            "name": "BLoC Implementation",
+            "description": "Implement the BLoC Pattern in your Flutter Desktop and Web Apps",
+            "features": [
+              "Use the BLoC Pattern in your Apps",
+              "Separate Business Logic from UI",
+              "Easily manage state in your Apps"
+            ],
+            "connection": {
+              "repo": "https://github.com/jules-media/bloc_implementation",
+              "playstore": null,
+              "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/bloc_implementation/",
+              "fdroid": null,
+              "pubdev": "https://pub.dev/packages/bloc_implementation"
+            },
+            "first-version-released": true,
+            "activeSupport": true
+          },
+          "helpful_extensions": {
+            "type-ready": [
+              "Mobile",
+              "Desktop",
+              "Web"
+            ],
+            "type-goal": [
+              "Mobile",
+              "Desktop",
+              "Web"
+            ],
+            "platforms-ready": [
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "platforms-goal": [
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "languages": [
+              "Dart"
+            ],
+            "frameworks": [
+              "Flutter"
+            ],
+            "name": "Helpful Extensions",
+            "description": "A collection of useful Flutter extensions for mobile, desktop, and web apps",
+            "features": [
+              "Easily get gradient colors from a single color",
+              "Check if colors a light or dark based",
+              "Get months and weekdays including names based on a single index"
+            ],
+            "connection": {
+              "repo": "https://github.com/jules-media/helpful_extensions",
+              "playstore": null,
+              "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/helpful_extensions/",
+              "fdroid": null,
+              "pubdev": "https://pub.dev/packages/helpful_extensions"
             },
             "first-version-released": true,
             "activeSupport": true
