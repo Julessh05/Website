@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import path from "node:path";
 import Link from "next/link";
-import LinkContainer from "@/app/components/linkContainer";
+import LinkContainer from "@/components/linkContainer";
 
 export const metadata = {
     title: 'Julian Schumacher - Blog',

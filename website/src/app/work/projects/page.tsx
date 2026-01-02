@@ -6,7 +6,7 @@ import styles from './page.module.scss';
 import getProjects from "@/app/data/mapping";
 import Project from "@/app/objects/project";
 import ProjectType from "@/app/objects/project_type";
-import LinkContainer from "@/app/components/linkContainer";
+import LinkContainer from "@/components/linkContainer";
 
 
 export default function Projects() {
