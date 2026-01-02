@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import path from "node:path";
 import Link from "next/link";
+import LinkContainer from "@/app/components/linkContainer";
 
 export const metadata = {
     title: 'Julian Schumacher - Blog',
@@ -33,18 +34,39 @@ export const metadata = {
     },
 }
 
+class BlogEntryDetails {
+    title: string
+    identifier: string
+    previewText: string
+
+    constructor(title: string, identifier: string, previewText: string) {
+        this.title = title;
+        this.identifier = identifier;
+        this.previewText = previewText;
+    }
+}
+
 export default async function Blog() {
     const blogEntryFiles: string[] = fs.readdirSync("./public/blog");
     const blogEntryNames: string[] = [];
+    const blogEntryPreviews: string[] = [];
     blogEntryFiles.forEach(async (fileName) => {
         const fullPath: string = path.join("./public/blog/", fileName);
         const fileContents: string = fs.readFileSync(fullPath, "utf8");
         const headline: string = fileContents.split("\n")[0].replace("# ", "");
+        const preview: string = fileContents.split("\n").slice(1, 4).join(" ");
         blogEntryNames.push(headline)
+        blogEntryPreviews.push(preview)
     });
-    const blogEntries: Record<string, string> = {};
+    const blogEntries: BlogEntryDetails[] = [];
     for (let i: number = 0; i < blogEntryNames.length; i++) {
-        blogEntries[blogEntryNames[i]] = blogEntryFiles[i].replace(".md", "");
+        blogEntries.push(
+            new BlogEntryDetails(
+                blogEntryNames[i],
+                blogEntryFiles[i].replace(".md", ""),
+                blogEntryPreviews[i]
+            )
+        );
     }
     return (
         <main>
@@ -55,10 +77,13 @@ export default async function Blog() {
                 <p>No blog entries found.</p>
             ) : (
                 <ul>
-                    {Object.entries(blogEntries).map(([name, file]) => (
-                        <li key={name}>
-                            <a href={`/blog/${file}`}>{name}</a>
-                        </li>
+                    {blogEntries.map((details) => (
+                        <LinkContainer
+                            name={details.title}
+                            description={details.previewText}
+                            href={`/blog/${details.identifier}`}
+                            key={details.identifier}
+                        />
                     ))}
                 </ul>
             )

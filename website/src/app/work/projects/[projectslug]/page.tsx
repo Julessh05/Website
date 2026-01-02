@@ -1,5 +1,5 @@
-import getProjects from "../../../data/mapping";
-import Project from "../../../objects/project";
+import getProjects from "@/app/data/mapping";
+import Project from "@/app/objects/project";
 import Link from "next/link";
 
 export const metadata = {

@@ -48,6 +48,8 @@ export default function Projects() {
             </p>
             <h2>Projects</h2>
             <p>You can find my projects on the corresponding page <Link href="/work/projects">here</Link>.</p>
+            <h2>Contributions</h2>
+            <p>Find out about my contributions to various projects and open source initiatives <Link href="/work/contributions">here</Link>.</p>
             <h2>Other</h2>
             <p>Some projects and ideas which are currently not listed on the projects page can be found here.</p>
             <p>Virtual Safety & Security Systems <Link href="https://v3s.tech" target="_blank">v3s.tech</Link></p>

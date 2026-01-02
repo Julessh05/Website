@@ -1,0 +1,23 @@
+.link {
+    text-decoration: none;
+
+    &:hover {
+
+        .linkContent {
+            color: var(--text-color);
+        }
+    }
+}
+
+.linkContainer {
+    padding: 16px;
+    margin: 32px;
+    cursor: pointer;
+    /* From https://css.glass */
+    background: rgba(110, 43, 58, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(110, 43, 58, 0.6);
+}

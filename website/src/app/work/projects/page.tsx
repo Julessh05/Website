@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { useState } from "react";
 import styles from './page.module.scss';
-import getProjects from "../../data/mapping";
-import Project from "../../objects/project";
-import ProjectType from "../../objects/project_type";
+import getProjects from "@/app/data/mapping";
+import Project from "@/app/objects/project";
+import ProjectType from "@/app/objects/project_type";
+import LinkContainer from "@/app/components/linkContainer";
 
 
 export default function Projects() {
@@ -59,20 +60,12 @@ export default function Projects() {
                             projects
                                 .filter((p) => p.projectType == type.identifier)
                                 .map((project) => (
-                                    <div key={project.identifier} className={styles.linkContainer}>
-                                        <Link href={`projects/${project.identifier}`} className={styles.link}>
-                                            <h4
-                                                className={styles.linkContent}
-                                            >
-                                                {project.name}
-                                            </h4>
-                                            <p
-                                                className={styles.linkContent}
-                                            >
-                                                {project.description}
-                                            </p>
-                                        </Link>
-                                    </div>
+                                    <LinkContainer
+                                        name={project.name}
+                                        description={project.description}
+                                        href={`projects/${project.identifier}`}
+                                        key={project.identifier}
+                                    />
                                 ))}
                     </ul>
                 </>
