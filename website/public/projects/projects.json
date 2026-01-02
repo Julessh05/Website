@@ -4,42 +4,124 @@
       "apps": {
         "name": "Apps",
         "content": {
-          "2Do": {
+          "habrix": {
             "type-implemented": [
               "Mobile"
             ],
             "type-goal": [
-              "Mobile"
+              "Mobile",
+              "Desktop"
             ],
             "platforms-ready": [
-              "Android",
               "iOS"
             ],
             "platforms-goal": [
               "Android",
-              "iOS"
+              "iOS",
+              "macOS",
+              "Windows"
             ],
             "languages": [
-              "Dart"
+              "Swift"
             ],
             "frameworks": [
-              "Flutter"
+              "SwiftUI"
             ],
-            "name": "2Do",
-            "description": "This App helps you organize your day",
+            "name": "Habrix",
+            "description": "Organize and track habits",
             "features": [
-              "Keep track of all your tasks",
-              "Organize your day",
-              "Add, delete, update and complete tasks",
-              "Organize your Todos with tags",
-              "Add Notes using two different input modes (notes and brainstorm)"
+              "Track your habits",
+              "Organize your habits into different categories",
+              "Set reminders for your habits",
+              "View your progress over time",
+              "Analyze statistics to improve your habits"
             ],
             "connection": {
-              "repo": "https://github.com/juliandevelops/2Do",
-              "playstore": "https://play.google.com/store/apps/details?id=com.jules.todo",
-              "appstore": "https://apps.apple.com/de/app/2do-organize-your-tasks/id6450028797",
+              "repo": "https://github.com/juliandevelops/habrix",
+              "playstore": null,
+              "appstore": "https://apps.apple.com/de/app/habrix/id6753806090",
               "microsoftstore": null,
-              "website": "https://juliandevelops.com/work/projects/2do/",
+              "website": "https://juliandevelops.com/work/projects/habrix/",
+              "fdroid": null,
+              "pubdev": null
+            },
+            "first-version-released": true,
+            "activeSupport": false
+          },
+          "protecto-pass": {
+            "type-ready": [],
+            "type-goal": [
+              "Mobile",
+              "Desktop"
+            ],
+            "platforms-ready": [],
+            "platforms-goal": [
+              "iOS",
+              "macOS"
+            ],
+            "languages": [
+              "Swift"
+            ],
+            "frameworks": [
+              "SwiftUI"
+            ],
+            "name": "Protecto Pass",
+            "description": "The one and only simple, secure and intuitive Password Safe to safely store your Passwords, Keys, and confidential data and documents",
+            "features": [
+              "Securely store your password",
+              "Sync between devices",
+              "Use different encryption algorithms",
+              "Store in different ways",
+              "Encrypt Pictures and Documents",
+              "Organize your database with folders",
+              "Separate different data with multiple database"
+            ],
+            "connection": {
+              "repo": "https://github.com/V3Sofficial/Protecto-Pass",
+              "playstore": null,
+              "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/protecto_pass/",
+              "fdroid": null,
+              "pubdev": null
+            },
+            "first-version-released": false,
+            "activeSupport": true
+          },
+          "financer": {
+            "type-ready": [
+              "Mobile"
+            ],
+            "type-goal": [
+              "Mobile",
+              "Desktop"
+            ],
+            "platforms-ready": [
+              "iOS"
+            ],
+            "platforms-goal": [
+              "iOS",
+              "macOS"
+            ],
+            "languages": [
+              "Swift"
+            ],
+            "frameworks": [
+              "SwiftUI"
+            ],
+            "name": "Financer",
+            "description": "Keep track of your finances",
+            "features": [
+              "Organize your Finances",
+              "Keep track of your money",
+              "Always be up-to-date with your bank balance"
+            ],
+            "connection": {
+              "repo": "https://github.com/juliandevelops/Financer",
+              "playstore": null,
+              "appstore": "https://apps.apple.com/de/app/financer-financial-overview/id6447355054",
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/financer/",
               "fdroid": null,
               "pubdev": null
             },
@@ -94,40 +176,42 @@
             "first-version-released": true,
             "activeSupport": false
           },
-          "financer": {
-            "type-ready": [
+          "2Do": {
+            "type-implemented": [
               "Mobile"
             ],
             "type-goal": [
-              "Mobile",
-              "Desktop"
+              "Mobile"
             ],
             "platforms-ready": [
+              "Android",
               "iOS"
             ],
             "platforms-goal": [
-              "iOS",
-              "macOS"
+              "Android",
+              "iOS"
             ],
             "languages": [
-              "Swift"
+              "Dart"
             ],
             "frameworks": [
-              "SwiftUI"
+              "Flutter"
             ],
-            "name": "Financer",
-            "description": "Keep track of your finances",
+            "name": "2Do",
+            "description": "This App helps you organize your day",
             "features": [
-              "Organize your Finances",
-              "Keep track of your money",
-              "Always be up-to-date with your bank balance"
+              "Keep track of all your tasks",
+              "Organize your day",
+              "Add, delete, update and complete tasks",
+              "Organize your Todos with tags",
+              "Add Notes using two different input modes (notes and brainstorm)"
             ],
             "connection": {
-              "repo": "https://github.com/juliandevelops/Financer",
-              "playstore": null,
-              "appstore": "https://apps.apple.com/de/app/financer-financial-overview/id6447355054",
+              "repo": "https://github.com/juliandevelops/2Do",
+              "playstore": "https://play.google.com/store/apps/details?id=com.jules.todo",
+              "appstore": "https://apps.apple.com/de/app/2do-organize-your-tasks/id6450028797",
               "microsoftstore": null,
-              "website": "https://juliandevelops.com/work/projects/financer/",
+              "website": "https://juliandevelops.com/work/projects/2do/",
               "fdroid": null,
               "pubdev": null
             },
@@ -181,46 +265,6 @@
             },
             "first-version-released": true,
             "activeSupport": false
-          },
-          "protecto-pass": {
-            "type-ready": [],
-            "type-goal": [
-              "Mobile",
-              "Desktop"
-            ],
-            "platforms-ready": [],
-            "platforms-goal": [
-              "iOS",
-              "macOS"
-            ],
-            "languages": [
-              "Swift"
-            ],
-            "frameworks": [
-              "SwiftUI"
-            ],
-            "name": "Protecto Pass",
-            "description": "The one and only simple, secure and intuitive Password Safe to safely store your Passwords, Keys, and confidential data and documents",
-            "features": [
-              "Securely store your password",
-              "Sync between devices",
-              "Use different encryption algorithms",
-              "Store in different ways",
-              "Encrypt Pictures and Documents",
-              "Organize your database with folders",
-              "Separate different data with multiple database"
-            ],
-            "connection": {
-              "repo": "https://github.com/V3Sofficial/Protecto-Pass",
-              "playstore": null,
-              "appstore": null,
-              "microsoftstore": null,
-              "website": "https://juliandevelops.com/work/projects/protecto_pass/",
-              "fdroid": null,
-              "pubdev": null
-            },
-            "first-version-released": false,
-            "activeSupport": true
           }
         }
       },
@@ -368,6 +412,57 @@
             },
             "first-version-released": true,
             "activeSupport": true
+          },
+          "color_chooser": {
+            "type-ready": [
+              "Desktop",
+              "Mobile",
+              "Web"
+            ],
+            "type-goal": [
+              "Desktop",
+              "Mobile",
+              "Web"
+            ],
+            "platforms-ready": [
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "platforms-goal": [
+              "iOS",
+              "Android",
+              "macOS",
+              "Windows",
+              "Linux"
+            ],
+            "languages": [
+              "Dart"
+            ],
+            "frameworks": [
+              "Flutter"
+            ],
+            "name": "Color Chooser",
+            "description": "Implement a nice color picker into your app",
+            "features": [
+              "Choose colors using different color models",
+              "Use predefined colors",
+              "Get notified when the color changes",
+              "Use different color picker styles"
+            ],
+            "connection": {
+              "repo": "https://github.com/jules-media/color_chooser",
+              "playstore": null,
+              "appstore": null,
+              "microsoftstore": null,
+              "website": "https://juliandevelops.com/work/projects/color_chooser/",
+              "fdroid": null,
+              "pubdev": "https://pub.dev/packages/color_chooser"
+            },
+            "first-version-released": true,
+            "activeSupport": true
           }
         }
       },
@@ -439,9 +534,9 @@
             "name": "Portfolio",
             "description": "Personal portfolio website to showcase my projects and skills",
             "features": [
-              "Delete moodle directory",
-              "Get Version Info",
-              "Use different commands"
+              "My personal portfolio website",
+              "Showcase my projects and skills",
+              "Contact form to reach out to me"
             ],
             "connection": {
               "repo": "https://github.com/juliandevelops/Portfolio",
@@ -453,6 +548,83 @@
               "pubdev": null
             },
             "first-version-released": true,
+            "activeSupport": true
+          },
+          "personal-website": {
+            "type-ready": [
+              "Web"
+            ],
+            "type-goal": [
+              "Web"
+            ],
+            "platforms-ready": [
+              "cross-platform"
+            ],
+            "platforms-goal": [
+              "cross-platform"
+            ],
+            "languages": [
+              "Typescript"
+            ],
+            "frameworks": [
+              "Next.js",
+              "Tailwind CSS",
+              "Sass"
+            ],
+            "name": "Personal Website",
+            "description": "Personal portfolio website to showcase my projects and skills",
+            "features": [
+              "My personal website",
+              "personal information about me"
+            ],
+            "connection": {
+              "repo": "https://github.com/juliandevelops/Personal-Website",
+              "playstore": null,
+              "appstore": null,
+              "microsoftstore": null,
+              "website": "https://julianschumacher.dev",
+              "fdroid": null,
+              "pubdev": null
+            },
+            "first-version-released": true,
+            "activeSupport": true
+          },
+          "v3s_website": {
+            "type-ready": [
+              "Web"
+            ],
+            "type-goal": [
+              "Web"
+            ],
+            "platforms-ready": [
+              "cross-platform"
+            ],
+            "platforms-goal": [
+              "cross-platform"
+            ],
+            "languages": [
+              "Typescript"
+            ],
+            "frameworks": [
+              "Next.js",
+              "Tailwind CSS",
+              "Sass"
+            ],
+            "name": "V3S Website",
+            "description": "Website for Virtual Safety and Security Systems Project",
+            "features": [
+              "Simple website"
+            ],
+            "connection": {
+              "repo": "https://github.com/v3sofficial/website",
+              "playstore": null,
+              "appstore": null,
+              "microsoftstore": null,
+              "website": "https://v3s.tech",
+              "fdroid": null,
+              "pubdev": null
+            },
+            "first-version-released": false,
             "activeSupport": true
           }
         }
