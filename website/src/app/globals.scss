@@ -6,7 +6,7 @@
   --headline-color: #FFFFFF;
   --accent-color: #6E2B3A;
   --accent-color-rgb: 110, 43, 58;
-  overscroll-behavior: none;
+  overscroll-behavior: default;
 }
 
 @theme inline {
@@ -21,7 +21,6 @@ body {
   margin: 0 0 3rem;
   color: var(--color-foreground);
   background-color: var(--color-background);
-  overscroll-behavior: contain;
 }
 
 nav {

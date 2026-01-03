@@ -9,7 +9,7 @@ export default function Footer() {
                 Website still in construction
             </p>
             <div>
-                <Link href="mailto:support@julianschumacher.dev?subject=Support Request [via Website]&body=[Support request triggered by website footer]">Support request</Link>
+                <Link href="mailto:support@juliandevelops.com?subject=Support Request [via Website]&body=[Support request triggered by website footer]">Support request</Link>
                 <Link href="/legal/privacy">Privacy Policy</Link>
             </div>
         </footer>
