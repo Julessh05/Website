@@ -1,12 +1,16 @@
 export default function Contributions() {
     return (
         <main>
-            <h1>Contributions</h1>
-            <p>
-                Here you can find information about my contributions to various projects and open source initiatives.
-            </p>
-            <h2>Open Source Projects</h2>
-            <p>Currently no completed contributions to third-party open source projects.</p>
+            <div className="stack fadeIn">
+                <h1>Contributions</h1>
+                <p>
+                    Here you can find information about my contributions to various projects and open source initiatives.
+                </p>
+            </div>
+            <section className="pageSection stack fadeIn delay1">
+                <h2>Open Source Projects</h2>
+                <p>Currently no completed contributions to third-party open source projects.</p>
+            </section>
         </main>
     );
 }

@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import styles from './page.module.scss';
 import getProjects from "@/app/data/mapping";
@@ -20,11 +19,14 @@ export default function Projects() {
     const [type, setType] = useState(types[0]);
 
     return (
-        <main>
-            <h1>Projects</h1>
+        <main className={styles.projectsPage}>
+            <div className={`${styles.hero} fadeIn`}>
+                <h1>Projects</h1>
+                <p>Explore curated work across security, privacy, and product engineering.</p>
+            </div>
             {/* Type selector */}
             <h2>Type</h2>
-            <div className={styles.typeSelector}>
+            <div className={`${styles.typeSelector} fadeIn delay1`}>
                 <ul>
                     <li key="all">
                         <button
@@ -47,13 +49,13 @@ export default function Projects() {
                 </ul>
             </div>
             {/* Projects */}
-            <div style={{ height: "50px" }}></div>
+            <div style={{ height: "30px" }}></div>
             {type.identifier == "all" ? ShowAllProjects(types, projects) :
                 <>
                     <h2>{type.name}</h2>
-                    <ul>
+                    <div className={styles.projectGrid}>
                         {projects.filter((p) => p.projectType == type.identifier).length == 0 ?
-                            <div>
+                            <div className={styles.emptyState}>
                                 <b>No projects of this type available yet.</b>
                                 <p>Stay tuned for more!</p>
                             </div> :
@@ -67,7 +69,7 @@ export default function Projects() {
                                         key={project.identifier}
                                     />
                                 ))}
-                    </ul>
+                    </div>
                 </>
             }
         </main >
@@ -79,33 +81,25 @@ function ShowAllProjects(types: ProjectType[], projects: Project[]) {
         <div key={"all-projects"}>
             {
                 types.map((type) => (
-                    <div key={`all-type-${type.identifier}`}>
+                    <div key={`all-type-${type.identifier}`} className={styles.typeBlock}>
                         <h2>{type.name}</h2>
-                        <ul>
+                        <div className={styles.projectGrid}>
                             {projects.filter((p) => p.projectType == type.identifier).length == 0 ?
-                                <div>
+                                <div className={styles.emptyState}>
                                     <b>No projects of this type available yet.</b>
                                     <p>Stay tuned for more!</p>
                                 </div> :
                                 projects
                                     .filter((p) => p.projectType == type.identifier)
                                     .map((project) => (
-                                        <div key={`all-${project.identifier}`} className={styles.linkContainer}>
-                                            <Link href={`projects/${project.identifier}`} className={styles.link}>
-                                                <h4
-                                                    className={styles.linkContent}
-                                                >
-                                                    {project.name}
-                                                </h4>
-                                                <p
-                                                    className={styles.linkContent}
-                                                >
-                                                    {project.description}
-                                                </p>
-                                            </Link>
-                                        </div>
+                                        <LinkContainer
+                                            name={project.name}
+                                            description={project.description}
+                                            href={`projects/${project.identifier}`}
+                                            key={`all-${project.identifier}`}
+                                        />
                                     ))}
-                        </ul>
+                        </div>
                     </div>
                 )
                 )

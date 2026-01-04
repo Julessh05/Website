@@ -1,17 +1,28 @@
-import Link from "next/link"
+import Link from "next/link";
+import styles from "./footer.module.scss";
 
 export default function Footer() {
-    return (
-        <footer>
-            <p>© 2026 Julian Schumacher. All rights reserved.</p>
-            <p style={{ color: "#B0892E" }}>
-                <Link href="/status">Info:</Link>
-                Website still in construction
-            </p>
-            <div>
-                <Link href="mailto:support@juliandevelops.com?subject=Support Request [via Website]&body=[Support request triggered by website footer]">Support request</Link>
-                <Link href="/legal/privacy">Privacy Policy</Link>
-            </div>
-        </footer>
-    )
+  return (
+    <footer className={styles.footer}>
+      <div className={styles.footerInner}>
+        <div>
+          <p className={styles.footerTitle}>Julian Schumacher</p>
+          <p className={styles.footerCopy}>© 2026 Julian Schumacher. All rights reserved.</p>
+        </div>
+        <div className={styles.footerLinks}>
+          <Link href="/status">Website status</Link>
+          <Link href="/legal/privacy">Privacy Policy</Link>
+          <Link href="mailto:support@juliandevelops.com?subject=Support Request [via Website]&body=[Support request triggered by website footer]">
+            Support request
+          </Link>
+        </div>
+      </div>
+      <p className={styles.footerNote}>
+        This site is still evolving. Thanks for stopping by.
+      </p>
+      <p className={styles.footerNote}>
+        AI was used in the creation of this website.
+      </p>
+    </footer>
+  );
 }

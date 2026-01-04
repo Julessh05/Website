@@ -38,9 +38,11 @@ export default async function BlogPage({
 
     return (
         <main>
-            <article>
-                <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-            </article>
+            <div className="stack fadeIn">
+                <article>
+                    <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+                </article>
+            </div>
         </main>
     );
 }

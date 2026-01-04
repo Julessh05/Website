@@ -31,17 +31,21 @@ export const metadata = {
 export default function StatusPage() {
     return (
         <main>
-            <h1>Website Status</h1>
-            <p>
-                This website is still in construction.
-                Some features may not work as intended on some devices or browsers.
-                If you encounter any issues, please feel free to <a href="/contact">contact me</a>.
-                The most recent state of development can be found on <Link href="https://github.com/juliandevelops/website" target="_blank">GitHub</Link>.
-            </p>
-            <h1>System Status</h1>
-            <p>
-                Currently no system is self-hosted, so no status information is available.
-            </p>
+            <div className="stack fadeIn">
+                <h1>Website Status</h1>
+                <p>
+                    This website is still in construction.
+                    Some features may not work as intended on some devices or browsers.
+                    If you encounter any issues, please feel free to <a href="/contact">contact me</a>.
+                    The most recent state of development can be found on <Link href="https://github.com/juliandevelops/website" target="_blank">GitHub</Link>.
+                </p>
+            </div>
+            <section className="pageSection stack fadeIn delay1">
+                <h2>System Status</h2>
+                <p>
+                    Currently no system is self-hosted, so no status information is available.
+                </p>
+            </section>
         </main>
     );
 }

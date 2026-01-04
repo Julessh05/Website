@@ -70,30 +70,36 @@ export default async function Blog() {
     }
     return (
         <main>
-            <h1>Blog</h1>
-            <p>Read more about my work, projects, and thoughts on software development.</p>
-            <h2>Entries</h2>
-            {blogEntryFiles.length === 0 ? (
-                <p>No blog entries found.</p>
-            ) : (
-                <ul>
-                    {blogEntries.map((details) => (
-                        <LinkContainer
-                            name={details.title}
-                            description={details.previewText}
-                            href={`/blog/${details.identifier}`}
-                            key={details.identifier}
-                        />
-                    ))}
-                </ul>
-            )
-            }
-            <p>Stay tuned for updates!</p>
-            <h2>Learnings</h2>
-            <p>
-                For an explicit list of learnings related to a multitude of different technologies and frameworks,
-                visit the <Link href="/learnings">Learnings page</Link>.
-            </p>
+            <div className="stack fadeIn">
+                <h1>Blog</h1>
+                <p>Read more about my work, projects, and thoughts on software development.</p>
+            </div>
+            <section className="pageSection stack fadeIn delay1">
+                <h2>Entries</h2>
+                {blogEntryFiles.length === 0 ? (
+                    <p>No blog entries found.</p>
+                ) : (
+                    <div className="stack">
+                        {blogEntries.map((details) => (
+                            <LinkContainer
+                                name={details.title}
+                                description={details.previewText}
+                                href={`/blog/${details.identifier}`}
+                                key={details.identifier}
+                            />
+                        ))}
+                    </div>
+                )
+                }
+                <p>Stay tuned for updates!</p>
+            </section>
+            <section className="pageSection stack fadeIn delay2">
+                <h2>Learnings</h2>
+                <p>
+                    For an explicit list of learnings related to a multitude of different technologies and frameworks,
+                    visit the <Link href="/learnings">Learnings page</Link>.
+                </p>
+            </section>
         </main>
     )
 }

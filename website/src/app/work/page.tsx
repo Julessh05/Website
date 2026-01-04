@@ -38,23 +38,29 @@ export const metadata = {
 export default function Projects() {
     return (
         <main>
-            <h1>Work</h1>
-            <p>
-                Explore my work, projects and more here.
-                Browse through various projects and applications and find something you like!
-                <br />
-                Each project has it&rsquo;s own page with more information and links to the respective stores
-                or repositories.
-            </p>
-            <h2>Projects</h2>
-            <p>You can find my projects on the corresponding page <Link href="/work/projects">here</Link>.</p>
-            <h2>Contributions</h2>
-            <p>Find out about my contributions to various projects and open source initiatives <Link href="/work/contributions">here</Link>.</p>
-            <h2>Other</h2>
-            <p>Some projects and ideas which are currently not listed on the projects page can be found here.</p>
-            <p>Virtual Safety & Security Systems <Link href="https://v3s.tech" target="_blank">v3s.tech</Link></p>
-            <br />
-            <p>Stay tuned, more coming soon!</p>
+            <div className="stack fadeIn">
+                <h1>Work</h1>
+                <p>
+                    Explore my work, projects and more here.
+                    Browse through various projects and applications and find something you like!
+                    Each project has its own page with more information and links to the respective stores
+                    or repositories.
+                </p>
+            </div>
+            <section className="pageSection stack fadeIn delay1">
+                <h2>Projects</h2>
+                <p>You can find my projects on the corresponding page <Link href="/work/projects">here</Link>.</p>
+            </section>
+            <section className="pageSection stack fadeIn delay2">
+                <h2>Contributions</h2>
+                <p>Find out about my contributions to various projects and open source initiatives <Link href="/work/contributions">here</Link>.</p>
+            </section>
+            <section className="pageSection stack fadeIn delay3">
+                <h2>Other</h2>
+                <p>Some projects and ideas which are currently not listed on the projects page can be found here.</p>
+                <p>Virtual Safety & Security Systems <Link href="https://v3s.tech" target="_blank">v3s.tech</Link></p>
+                <p>Stay tuned, more coming soon!</p>
+            </section>
         </main>
     )
 }

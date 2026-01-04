@@ -1,23 +1,33 @@
 .link {
     text-decoration: none;
+    display: block;
 
     &:hover {
 
         .linkContent {
-            color: var(--text-color);
+            color: var(--headline-color);
         }
     }
 }
 
 .linkContainer {
-    padding: 16px;
-    margin: 32px;
+    padding: 1.5rem;
+    margin: 0;
     cursor: pointer;
-    /* From https://css.glass */
-    background: rgba(110, 43, 58, 0.47);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(110, 43, 58, 0.6);
+    background: rgba(15, 17, 21, 0.55);
+    border-radius: 20px;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(var(--accent-color-rgb), 0.3);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        border-color: rgba(var(--accent-color-rgb), 0.6);
+    }
+}
+
+.linkContent {
+    margin: 0;
 }

@@ -1,13 +1,19 @@
+.loadingWrap {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
 .loadingCircle {
-  position: absolute;
-  top: 40vh;
-  left: calc(50vw - 10vh);
-  border: 8px dotted #ccffff;
-  border-top: 8px dotted #0000cc;
+  border: 6px solid rgba(214, 216, 223, 0.2);
+  border-top: 6px solid rgba(var(--accent-color-rgb), 0.9);
   border-radius: 50%;
-  width: 20vh;
-  height: 20vh;
-  animation: spin 2.5s ease-in-out infinite;
+  width: 90px;
+  height: 90px;
+  animation: spin 1.6s linear infinite;
 }
 
 @keyframes spin {
@@ -20,9 +26,8 @@
 }
 
 .loadingText {
-  top: 75vh;
-  position: absolute;
   text-align: center;
-  width: 100vw;
-  font-size: 2em;
+  font-size: 1.4rem;
+  color: var(--headline-color);
+  letter-spacing: 0.04em;
 }

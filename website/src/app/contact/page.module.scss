@@ -1,3 +1,12 @@
+.contactSection {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background: rgba(15, 17, 21, 0.55);
+    border: 1px solid rgba(214, 216, 223, 0.15);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
 .socialLink {
     display: flex;
     padding: 0.2rem 0rem;
@@ -14,5 +23,26 @@
 
     a {
         margin: 0rem .3rem
+    }
+}
+
+.storeLinks {
+    display: grid;
+    gap: 1.5rem;
+
+    @media (min-width: 640px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.storeLink {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+
+    img {
+        width: 200px;
+        margin: 0;
+        object-fit: contain;
     }
 }
