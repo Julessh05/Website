@@ -2,6 +2,8 @@ import fs from "node:fs"
 import path from "node:path";
 import Link from "next/link";
 import LinkContainer from "@/components/linkContainer";
+import PageSection from "@/components/PageSection";
+import Stack from "@/components/Stack";
 
 export const metadata = {
     title: 'Julian Schumacher - Blog',
@@ -70,11 +72,11 @@ export default async function Blog() {
     }
     return (
         <main>
-            <div className="stack fadeIn">
+            <Stack>
                 <h1>Blog</h1>
                 <p>Read more about my work, projects, and thoughts on software development.</p>
-            </div>
-            <section className="pageSection stack fadeIn delay1">
+            </Stack>
+            <PageSection delay="delay1">
                 <h2>Entries</h2>
                 {blogEntryFiles.length === 0 ? (
                     <p>No blog entries found.</p>
@@ -92,14 +94,14 @@ export default async function Blog() {
                 )
                 }
                 <p>Stay tuned for updates!</p>
-            </section>
-            <section className="pageSection stack fadeIn delay2">
+            </PageSection>
+            <PageSection delay="delay2">
                 <h2>Learnings</h2>
                 <p>
                     For an explicit list of learnings related to a multitude of different technologies and frameworks,
                     visit the <Link href="/learnings">Learnings page</Link>.
                 </p>
-            </section>
+            </PageSection>
         </main>
     )
 }

@@ -26,6 +26,8 @@ export default class Project {
 
     connection: Connection
 
+    screenshots: string[]
+
     firstVersionReleased: boolean
 
     activeSupport: boolean
@@ -43,6 +45,7 @@ export default class Project {
         description: string,
         features: string[],
         connection: Connection,
+        screenshots: string[],
         firstVersionReleased: boolean,
         activeSupport: boolean,
     ) {
@@ -58,6 +61,7 @@ export default class Project {
         this.description = description;
         this.features = features;
         this.connection = connection;
+        this.screenshots = screenshots;
         this.firstVersionReleased = firstVersionReleased;
         this.activeSupport = activeSupport
     }

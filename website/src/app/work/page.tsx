@@ -1,4 +1,6 @@
 import Link from "next/link";
+import PageSection from "@/components/PageSection";
+import Stack from "@/components/Stack";
 
 export const metadata = {
     title: 'Julian Schumacher - Work',
@@ -38,7 +40,7 @@ export const metadata = {
 export default function Projects() {
     return (
         <main>
-            <div className="stack fadeIn">
+            <Stack>
                 <h1>Work</h1>
                 <p>
                     Explore my work, projects and more here.
@@ -46,21 +48,21 @@ export default function Projects() {
                     Each project has its own page with more information and links to the respective stores
                     or repositories.
                 </p>
-            </div>
-            <section className="pageSection stack fadeIn delay1">
+            </Stack>
+            <PageSection delay="delay1">
                 <h2>Projects</h2>
                 <p>You can find my projects on the corresponding page <Link href="/work/projects">here</Link>.</p>
-            </section>
-            <section className="pageSection stack fadeIn delay2">
+            </PageSection>
+            <PageSection delay="delay2">
                 <h2>Contributions</h2>
                 <p>Find out about my contributions to various projects and open source initiatives <Link href="/work/contributions">here</Link>.</p>
-            </section>
-            <section className="pageSection stack fadeIn delay3">
+            </PageSection>
+            <PageSection delay="delay3">
                 <h2>Other</h2>
                 <p>Some projects and ideas which are currently not listed on the projects page can be found here.</p>
                 <p>Virtual Safety & Security Systems <Link href="https://v3s.tech" target="_blank">v3s.tech</Link></p>
                 <p>Stay tuned, more coming soon!</p>
-            </section>
+            </PageSection>
         </main>
     )
 }

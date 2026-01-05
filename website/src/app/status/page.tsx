@@ -1,4 +1,6 @@
 import Link from "next/link";
+import PageSection from "@/components/PageSection";
+import Stack from "@/components/Stack";
 
 export const metadata = {
     title: 'Julian Schumacher - Website Status',
@@ -31,7 +33,7 @@ export const metadata = {
 export default function StatusPage() {
     return (
         <main>
-            <div className="stack fadeIn">
+            <Stack>
                 <h1>Website Status</h1>
                 <p>
                     This website is still in construction.
@@ -39,13 +41,13 @@ export default function StatusPage() {
                     If you encounter any issues, please feel free to <a href="/contact">contact me</a>.
                     The most recent state of development can be found on <Link href="https://github.com/juliandevelops/website" target="_blank">GitHub</Link>.
                 </p>
-            </div>
-            <section className="pageSection stack fadeIn delay1">
+            </Stack>
+            <PageSection delay="delay1">
                 <h2>System Status</h2>
                 <p>
                     Currently no system is self-hosted, so no status information is available.
                 </p>
-            </section>
+            </PageSection>
         </main>
     );
 }

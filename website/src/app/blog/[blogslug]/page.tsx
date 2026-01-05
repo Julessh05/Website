@@ -2,6 +2,7 @@ import path from "path";
 import fs from "node:fs"
 import { remark } from "remark";
 import remarkHtml from "remark-html";
+import Stack from "@/components/Stack";
 
 export const metadata = {
     formatDetection: {
@@ -38,11 +39,11 @@ export default async function BlogPage({
 
     return (
         <main>
-            <div className="stack fadeIn">
+            <Stack>
                 <article>
                     <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
                 </article>
-            </div>
+            </Stack>
         </main>
     );
 }

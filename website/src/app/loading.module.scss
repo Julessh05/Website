@@ -4,30 +4,82 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
+}
+
+.skeletonHero {
+  width: min(680px, 90vw);
+  display: flex;
   gap: 1.5rem;
+  align-items: center;
 }
 
-.loadingCircle {
-  border: 6px solid rgba(214, 216, 223, 0.2);
-  border-top: 6px solid rgba(var(--accent-color-rgb), 0.9);
-  border-radius: 50%;
-  width: 90px;
-  height: 90px;
-  animation: spin 1.6s linear infinite;
+.skeletonAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
+.skeletonText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.skeletonLine {
+  height: 14px;
+  border-radius: 999px;
+}
+
+.skeletonLineShort {
+  height: 14px;
+  width: 60%;
+  border-radius: 999px;
+}
+
+.skeletonCards {
+  width: min(680px, 90vw);
+  display: grid;
+  gap: 1rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  100% {
-    transform: rotate(360deg);
+}
+
+.skeletonCard {
+  height: 120px;
+  border-radius: 18px;
+}
+
+.skeleton {
+  background: linear-gradient(
+    110deg,
+    rgba(214, 216, 223, 0.08) 8%,
+    rgba(214, 216, 223, 0.16) 18%,
+    rgba(214, 216, 223, 0.08) 33%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease infinite;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
   }
 }
 
 .loadingText {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: var(--headline-color);
   letter-spacing: 0.04em;
+}
+
+@media (max-width: 640px) {
+  .skeletonHero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

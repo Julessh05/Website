@@ -1,4 +1,6 @@
 import Link from "next/link"
+import PageSection from "@/components/PageSection";
+import Stack from "@/components/Stack";
 
 export const metadata = {
     title: 'Julian Schumacher - Privacy',
@@ -39,7 +41,7 @@ export const metadata = {
 export default function Privacy() {
     return (
         <main>
-            <div className="stack fadeIn">
+            <Stack>
                 <h1>Website</h1>
                 <h2>General</h2>
                 <p>
@@ -55,8 +57,8 @@ export default function Privacy() {
                         <Link href="https://www.ionos.de/terms-gtc/datenschutzerklaerung/" target="_blank">Provider</Link>
                     </li>
                 </ul>
-            </div>
-            <section className="pageSection stack fadeIn delay1">
+            </Stack>
+            <PageSection delay="delay1">
                 <h1>Apps</h1>
                 <h2>General</h2>
                 <p>
@@ -66,8 +68,8 @@ export default function Privacy() {
                     entered in the App.
                     If the Data are sensitive, they are encrypted.
                 </p>
-            </section>
-            <section className="pageSection stack fadeIn delay2">
+            </PageSection>
+            <PageSection delay="delay2">
                 <h2>Flutter Specific</h2>
                 <p>
                     For some of my Apps i use <Link href="https://dart.dev" target="_blank">Googles Language Dart</Link> and the corresponding <Link
@@ -87,8 +89,8 @@ export default function Privacy() {
                     If you do not find the link, you can <Link href="https://github.com/Julessh05?tab=repositories" target="_blank">search
                         here</Link>.
                 </p>
-            </section>
-            <section className="pageSection stack fadeIn delay3">
+            </PageSection>
+            <PageSection delay="delay3">
                 <h2>Swift Specific</h2>
                 <p>
                     My Swift and SwiftUI Apps - most of my more recent Apps,
@@ -99,7 +101,7 @@ export default function Privacy() {
                     To read more about storing and security, please refer to the projects own
                     page, all Projects can be found <Link href="/work/projects">here</Link>.
                 </p>
-            </section>
+            </PageSection>
         </main>
 
     )

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.scss";
+import PageSection from "@/components/PageSection";
+import Stack from "@/components/Stack";
 
 export const metadata = {
     title: 'Julian Schumacher - Contact',
@@ -39,7 +41,7 @@ export const metadata = {
 export default function Contact() {
     return (
         <main>
-            <div className="stack fadeIn">
+            <Stack>
                 <h1>Contact</h1>
                 <p>
                     In case of any questions, requests or other converns, please don&rsquo;t hesitate to reach out.
@@ -47,19 +49,19 @@ export default function Contact() {
                     Most of the time, a simple email will get you the fastest response.
                     Please include as many details as possible regarding your request for me to help you best.
                 </p>
-            </div>
+            </Stack>
 
             {/* Email contact */}
-            <section className={`${styles.contactSection} fadeIn delay1`}>
+            <PageSection className={styles.contactSection} delay="delay1">
                 <h2>Preferred</h2>
                 <p>Email: <Link href="mailto:contact@julianschumacher.dev?subject=Contact request">contact@julianschumacher.dev</Link></p>
-            </section>
+            </PageSection>
 
             {/* Other Contacts */}
             <h2 className="fadeIn delay1">Others</h2>
 
             {/* Work contact */}
-            <section className={`${styles.contactSection} fadeIn delay2`}>
+            <PageSection className={styles.contactSection} delay="delay2">
                 <h3>Work</h3>
                 <p className={styles.socialLink}>
                     <Image
@@ -71,10 +73,10 @@ export default function Contact() {
                     GitHub:
                     <Link href="https://github.com/juliandevelops" target="_blank">@juliandevelops</Link>
                 </p>
-            </section>
+            </PageSection>
 
             {/* Social Links */}
-            <section className={`${styles.contactSection} fadeIn delay2`}>
+            <PageSection className={styles.contactSection} delay="delay2">
                 <h3>Socials</h3>
                 <p className={styles.socialLink}>
                     <Image
@@ -114,16 +116,16 @@ export default function Contact() {
                         width={20}
                     />
                     Patreon: <Link href="https://www.patreon.com/juliandevelops" target="_blank">@juliandevelops</Link></p>
-            </section>
+            </PageSection>
 
             {/* Support section */}
-            <section className={`${styles.contactSection} fadeIn delay3`}>
+            <PageSection className={styles.contactSection} delay="delay3">
                 <h3>Support</h3>
                 <p>For support requests please refer to the <Link href="/support">dedicated support page.</Link></p>
-            </section>
+            </PageSection>
 
             {/* Other projects */}
-            <section className={`${styles.contactSection} fadeIn delay3`}>
+            <PageSection className={styles.contactSection} delay="delay3">
                 <h3>Other projects</h3>
                 <p className={styles.socialLink}>
                     <Image
@@ -160,7 +162,7 @@ export default function Contact() {
                         </Link>
                     </p>
                 </div>
-            </section>
+            </PageSection>
         </main >
     );
 }

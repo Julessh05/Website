@@ -1,6 +1,9 @@
 import getProjects from "@/app/data/mapping";
 import Project from "@/app/objects/project";
 import Link from "next/link";
+import ProjectCarousel from "@/components/projectCarousel";
+import PageSection from "@/components/PageSection";
+import Stack from "@/components/Stack";
 
 export const metadata = {
     formatDetection: {
@@ -35,20 +38,28 @@ export default async function ProjectPage({
     if (!project) {
         return (
             <main>
-                <div className="pageSection stack fadeIn">
+                <PageSection>
                     <h1>Project Not Found</h1>
                     <p>The project you are looking for does not exist.</p>
-                </div>
+                </PageSection>
             </main>
         );
     } else {
         return (
             <main>
-                <div className="stack fadeIn">
+                <Stack>
                     <h1>{project.name}</h1>
                     <p>{project.description}</p>
-                </div>
-                <section className="pageSection stack fadeIn delay1">
+                </Stack>
+                <PageSection delay="delay1">
+                    <h2>Screenshots</h2>
+                    {project.screenshots.length === 0 ? (
+                        <p>No screenshots available yet.</p>
+                    ) : (
+                        <ProjectCarousel images={project.screenshots} altPrefix={project.name} />
+                    )}
+                </PageSection>
+                <PageSection delay="delay2">
                     <h2>General</h2>
                     <p>{project.activeSupport ? "Active support" : "Inactive support"}</p>
                     <p>{project.firstVersionReleased ? "Published" : "Still in development"}</p>
@@ -92,16 +103,16 @@ export default async function ProjectPage({
                             ))}
                         </ul>
                     </div>
-                </section>
-                <section className="pageSection stack fadeIn delay2">
+                </PageSection>
+                <PageSection delay="delay2">
                     <h2>Features</h2>
                     <ul>
                         {project.features.map((feature, index) => (
                             <li key={index}>{feature}</li>
                         ))}
                     </ul>
-                </section>
-                <section className="pageSection stack fadeIn delay3">
+                </PageSection>
+                <PageSection delay="delay3">
                     <h2>Technologies</h2>
                     <p>Technologies used in development of this project</p>
                     <div className="stack">
@@ -128,8 +139,8 @@ export default async function ProjectPage({
                             </ul>
                         }
                     </div>
-                </section>
-                <section className="pageSection stack fadeIn delay3">
+                </PageSection>
+                <PageSection delay="delay3">
                     <h2>Connection</h2>
                     <ul>
                         {Array.from(project.connection.getActive().entries()).map(([key, value]) => (
@@ -138,7 +149,7 @@ export default async function ProjectPage({
                             </li>
                         ))}
                     </ul>
-                </section>
+                </PageSection>
             </main>
         );
     }

@@ -44,6 +44,7 @@ function idToProject(projectID, type) {
       object.connection.fdroid,
       object.connection.pubdev
     ),
+    object.screenshots ?? [],
     object["first-version-released"],
     object["activeSupport"]
   );
