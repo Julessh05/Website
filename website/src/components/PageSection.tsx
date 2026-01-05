@@ -1,7 +1,7 @@
-import type { ReactNode } from "react";
+import type { ElementType, ReactNode } from "react";
 
 type PageSectionProps = {
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
   className?: string;
   delay?: "delay1" | "delay2" | "delay3";
   children: ReactNode;
