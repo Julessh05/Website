@@ -29,9 +29,6 @@ export default function Header() {
           className={`${styles.navList} ${isOpen ? styles.navOpen : ""}`}
         >
           <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
             <Link href="/work/">Work</Link>
           </li>
           <li>

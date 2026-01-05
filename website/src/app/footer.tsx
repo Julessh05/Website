@@ -21,7 +21,7 @@ export default function Footer() {
         This site is still evolving. Thanks for stopping by.
       </p>
       <p className={styles.footerNote}>
-        AI was used in the creation of this website.
+        Generative AI was used to assist in the creation of this website.
       </p>
     </footer>
   );
