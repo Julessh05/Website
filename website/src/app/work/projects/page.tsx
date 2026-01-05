@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import styles from './page.module.scss';
-import getProjects from "@/app/data/mapping";
+import getProjects from "@/data/mapping";
 import Project from "@/objects/project";
 import ProjectType from "@/objects/project_type";
 import LinkContainer from "@/components/linkContainer";
