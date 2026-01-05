@@ -1,14 +1,21 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
+import { IBM_Plex_Sans, Inter } from "next/font/google";
 import "./globals.scss";
 import React from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "./header";
 import Footer from "./footer";
 
-// const inter = Inter({ subsets: ["latin"] });
-const source_sans_3 = Source_Sans_3({
+const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-primary",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-heading",
 });
 
 export const metadata: Metadata = {
@@ -88,7 +95,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={source_sans_3.className}>
+    <html lang="en" className={`${ibmPlexSans.variable} ${inter.variable}`}>
       <body>
         <Header />
         {children}
