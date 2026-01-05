@@ -1,7 +1,7 @@
-import getProjects from "@/app/data/mapping";
-import Project from "@/app/objects/project";
+import getProjects from "@/data/mapping";
+import Project from "@/objects/project";
 import Link from "next/link";
-import ProjectCarousel from "@/components/projectCarousel";
+import ProjectCarousel, { ProjectCarouselProps } from "@/components/projectCarousel";
 import PageSection from "@/components/PageSection";
 import Stack from "@/components/Stack";
 
@@ -35,6 +35,10 @@ export default async function ProjectPage({
     const ar: unknown[] = getProjects();
     const projects: Project[] = ar[0] as Project[];
     const project = projects.find((p) => p.identifier.toLowerCase() === projectslug.toLowerCase());
+    const props: ProjectCarouselProps = {
+        images: project ? project.screenshots : [],
+        altPrefix: project ? project.name : "Project",
+    }
     if (!project) {
         return (
             <main>
@@ -56,7 +60,7 @@ export default async function ProjectPage({
                     {project.screenshots.length === 0 ? (
                         <p>No screenshots available yet.</p>
                     ) : (
-                        <ProjectCarousel images={project.screenshots} altPrefix={project.name} />
+                        <ProjectCarousel props={props} projectName={project.identifier} />
                     )}
                 </PageSection>
                 <PageSection delay="delay2">

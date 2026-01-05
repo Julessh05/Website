@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from "./projectCarousel.module.scss";
 
-type ProjectCarouselProps = {
+export type ProjectCarouselProps = {
   images: string[];
   altPrefix: string;
 };

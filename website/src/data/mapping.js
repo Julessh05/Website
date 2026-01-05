@@ -1,8 +1,8 @@
 import projectsData from "@/../public//projects/projects.json";
 
-import Project from "@/app/objects/project";
-import Connection from "@/app/objects/connection";
-import ProjectType from "@/app/objects/project_type";
+import Project from "@/objects/project";
+import Connection from "@/objects/connection";
+import ProjectType from "@/objects/project_type";
 
 export default function getProjects() {
   const list = [];
