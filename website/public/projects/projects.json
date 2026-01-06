@@ -128,7 +128,7 @@
             "first-version-released": true,
             "activeSupport": false
           },
-          "the-spy": {
+          "the_spy": {
             "type-ready": [
               "Mobile"
             ],
