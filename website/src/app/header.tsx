@@ -7,6 +7,10 @@ import styles from "./header.module.scss";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className={styles.nav}>
       <div className={styles.navInner}>
@@ -29,19 +33,19 @@ export default function Header() {
           className={`${styles.navList} ${isOpen ? styles.navOpen : ""}`}
         >
           <li>
-            <Link href="/work/">Work</Link>
+            <Link href="/work/" onClick={handleLinkClick}>Work</Link>
           </li>
           <li>
-            <Link href="/blog">Blog</Link>
+            <Link href="/blog" onClick={handleLinkClick}>Blog</Link>
           </li>
           <li>
-            <Link href="/legal/privacy/">Privacy</Link>
+            <Link href="/legal/privacy/" onClick={handleLinkClick}>Privacy</Link>
           </li>
           <li>
-            <Link href="/contact/">Contact</Link>
+            <Link href="/contact/" onClick={handleLinkClick}>Contact</Link>
           </li>
           <li>
-            <Link href="/support/">Support</Link>
+            <Link href="/support/" onClick={handleLinkClick}>Support</Link>
           </li>
         </ul>
       </div>

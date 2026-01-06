@@ -3,8 +3,8 @@ import styles from "./linkContainer.module.scss"
 
 export default function LinkContainer({ name, description, href }: { name: string, description: string, href: string }) {
     return (
-        <div key={name} className={styles.linkContainer}>
-            <Link href={href} className={styles.link}>
+        <Link key={name} href={href} className={`${styles.linkContainer} ${styles.link}`}>
+            <div className={styles.link}>
                 <h4
                     className={styles.linkContent}
                 >
@@ -15,7 +15,7 @@ export default function LinkContainer({ name, description, href }: { name: strin
                 >
                     {description}
                 </p>
-            </Link>
-        </div>
+            </div>
+        </Link>
     );
 }

@@ -34,12 +34,12 @@ export default function Home() {
         </div>
         <div className={styles.heroMeta}>
           <div>
-            <h3>Based in Stuttgart</h3>
-            <p>Studying at DHBW with a focus on applied security engineering.</p>
-          </div>
-          <div>
             <h3>Privacy by default</h3>
             <p>Minimal data collection, transparent communication, zero tracking.</p>
+          </div>
+          <div>
+            <h3>Based in Stuttgart</h3>
+            <p>Studying at DHBW with a focus on applied security engineering.</p>
           </div>
         </div>
       </section>

@@ -51,10 +51,10 @@ export default function Privacy() {
                 </p>
                 <ul>
                     <li>
-                        <Link href="https://vercel.com/legal/privacy-policy" target="_blank">Hoster</Link>
+                        <Link href="https://vercel.com/legal/privacy-policy" target="_blank">Vercel Privacy Policy</Link>
                     </li>
                     <li>
-                        <Link href="https://www.ionos.de/terms-gtc/datenschutzerklaerung/" target="_blank">Provider</Link>
+                        <Link href="https://www.strato.de/datenschutz/" target="_blank">Strato Privacy Policy</Link>
                     </li>
                 </ul>
             </Stack>
