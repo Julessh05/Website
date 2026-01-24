@@ -127,17 +127,6 @@ export default function Contact() {
             {/* Other projects */}
             <PageSection className={styles.contactSection} delay="delay3">
                 <h3>Other projects</h3>
-                <p className={styles.socialLink}>
-                    <Image
-                        src="/projects_icons/v3s_icon.png"
-                        alt="V3S Icon"
-                        height={20}
-                        width={20}
-                        style={{ borderRadius: "7.5px" }}
-                    />
-                    Virtual Safety & Security Systems
-                    <Link href="https://v3s.tech" target="_blank">v3s.tech</Link>
-                </p>
                 <div className={styles.storeLinks}>
                     <p className={styles.storeLink}>
                         App Store: <Link href="https://apps.apple.com/de/developer/julian-schumacher/id1681063160" target="_blank">Julian Schumacher</Link>
