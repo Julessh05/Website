@@ -60,7 +60,6 @@ export default function Projects() {
             <PageSection delay="delay3">
                 <h2>Other</h2>
                 <p>Some projects and ideas which are currently not listed on the projects page can be found here.</p>
-                <p>Virtual Safety & Security Systems <Link href="https://v3s.tech" target="_blank">v3s.tech</Link></p>
                 <p>Stay tuned, more coming soon!</p>
             </PageSection>
         </main>
